@@ -30,7 +30,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <?= $this->Html->meta('icon') ?>
 
-        <?= $this->Html->css(['bootstrap.min.css','bootstrap-theme.min', 'my.style','public.web']) ?>
+        <?= $this->Html->css(['bootstrap.min.css','bootstrap-theme.min', 'my.style','public.web', 'w3schools']) ?>
         <?= $this->Html->script(['bootstrap.min','jquery-3.2.1.min','my']) ?>
 
         <?= $this->fetch('meta') ?>
@@ -38,6 +38,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <?= $this->fetch('script') ?>
     </head>
     <body>
+        
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -50,10 +51,18 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
+                        <div class="dropdown">
+                            <button class="dropbtn">Usuário</button>
+                            <div class="dropdown-content">
+                                <a href="#">Cadastrar</a>
+                                <a href="#">Listar</a>
+                            </div>
+                        </div>
                         <li class="active"><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Projects</a></li>
                         <li><a href="#">Contact</a></li>
+                        
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -64,13 +73,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         
         <div class="div-center">
             <div class="container-fluid text-center">    
-                <div class="row content">
-                    
-                    <div class="col-sm-2 sidenav">
-                        <p><a href="#">Link</a></p>
-                        <p><a href="#">Link</a></p>
-                        <p><a href="#">Link</a></p>
-                    </div>
+                <div class="content">
                     
                     <div class="col-sm-10 text-left"> 
                         <h1>Welcome</h1>
@@ -78,12 +81,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                         <hr>
                         <h3>Test</h3>
                         <p>Lorem ipsum...</p>                        
-                            <?= $this->Flash->render() ?>
-                            <?= $this->fetch('content') ?>                        
+                        <?= $this->Flash->render() ?>
+                        <?= $this->fetch('content') ?>                        
                     </div>
-                    
-                    
-                    
                 </div>
             </div>
         </div>
@@ -93,7 +93,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                     <div class="row">
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                             <div class="copyright">
-                                © 2015, Webenlance, All rights reserved
+                                © 2017, Webenlance, All rights reserved
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
