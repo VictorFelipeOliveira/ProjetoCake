@@ -1,0 +1,50 @@
+2017-07-27 23:02:45 Error: [Cake\Core\Exception\MissingPluginException] Plugin Teste could not be found.
+Exception Attributes: array (
+  'plugin' => 'Teste',
+)
+Request URL: /pages/examples/profile
+Referer URL: http://localhost:8765/pages/forms/editors
+Stack Trace:
+#0 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Core/App.php(190): Cake\Core\Plugin::classPath('Teste')
+#1 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/View/View.php(1287): Cake\Core\App::path('Template', 'Teste')
+#2 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/View/View.php(1101): Cake\View\View->_paths(NULL)
+#3 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/View/View.php(606): Cake\View\View->_getViewFileName('Error/error500')
+#4 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(364): Cake\View\View->render('error500', 'error')
+#5 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(341): Cake\Error\ExceptionRenderer->_outputMessageSafe('error500')
+#6 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(200): Cake\Error\ExceptionRenderer->_outputMessage('missingPlugin')
+#7 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(110): Cake\Error\ExceptionRenderer->render()
+#8 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(94): Cake\Error\Middleware\ErrorHandlerMiddleware->handleException(Object(Cake\Core\Exception\MissingPluginException), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/webroot/index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-07-27 23:02:47 Error: [Cake\Core\Exception\MissingPluginException] Plugin Teste could not be found.
+Exception Attributes: array (
+  'plugin' => 'Teste',
+)
+Request URL: /pages/examples/profile
+Referer URL: http://localhost:8765/pages/forms/editors
+Stack Trace:
+#0 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Core/App.php(190): Cake\Core\Plugin::classPath('Teste')
+#1 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/View/View.php(1287): Cake\Core\App::path('Template', 'Teste')
+#2 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/View/View.php(1101): Cake\View\View->_paths(NULL)
+#3 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/View/View.php(606): Cake\View\View->_getViewFileName('Error/error500')
+#4 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(364): Cake\View\View->render('error500', 'error')
+#5 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(341): Cake\Error\ExceptionRenderer->_outputMessageSafe('error500')
+#6 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(200): Cake\Error\ExceptionRenderer->_outputMessage('missingPlugin')
+#7 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(110): Cake\Error\ExceptionRenderer->render()
+#8 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(94): Cake\Error\Middleware\ErrorHandlerMiddleware->handleException(Object(Cake\Core\Exception\MissingPluginException), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/josemar/NetBeansProjects/ProjetoCake/sistemaCakeSIGEP/webroot/index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+

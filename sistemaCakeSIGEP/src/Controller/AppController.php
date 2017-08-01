@@ -68,6 +68,7 @@ class AppController extends Controller
         }
         
          $this->viewBuilder()->theme('AdminLTE');
+         $this->viewBuilder()->layout('teste');
          
          $this->set('theme', Configure::read('Theme'));
     }
