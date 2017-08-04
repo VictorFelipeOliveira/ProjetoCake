@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit5926df0346c31caa302c9ce98e20b5c8
+class ComposerStaticInit9b41f7332b17eed8d72223504166dabb
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -82,7 +82,6 @@ class ComposerStaticInit5926df0346c31caa302c9ce98e20b5c8
             'Aura\\Intl\\' => 10,
             'App\\Test\\' => 9,
             'App\\' => 4,
-            'AdminLTE\\' => 9,
         ),
     );
 
@@ -227,10 +226,6 @@ class ComposerStaticInit5926df0346c31caa302c9ce98e20b5c8
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
-        'AdminLTE\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/maiconpinto/cakephp-adminlte-theme/src',
-        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -262,10 +257,10 @@ class ComposerStaticInit5926df0346c31caa302c9ce98e20b5c8
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit5926df0346c31caa302c9ce98e20b5c8::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit5926df0346c31caa302c9ce98e20b5c8::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit5926df0346c31caa302c9ce98e20b5c8::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit5926df0346c31caa302c9ce98e20b5c8::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit9b41f7332b17eed8d72223504166dabb::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit9b41f7332b17eed8d72223504166dabb::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit9b41f7332b17eed8d72223504166dabb::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit9b41f7332b17eed8d72223504166dabb::$classMap;
 
         }, null, ClassLoader::class);
     }

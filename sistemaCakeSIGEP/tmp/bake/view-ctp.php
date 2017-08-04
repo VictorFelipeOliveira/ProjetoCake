@@ -1,26 +1,4 @@
 <?php
-/**
- * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
- * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- *
- * Licensed under The MIT License
- * For full copyright and license information, please see the LICENSE.txt
- * Redistributions of files must retain the above copyright notice.
- *
- * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- * @link          http://cakephp.org CakePHP(tm) Project
- * @since         0.1.0
- * @license       http://www.opensource.org/licenses/mit-license.php MIT License
- */
-?>
-<CakePHPBakeOpenTagphp
-/**
-  * @var \<?= $namespace ?>\View\AppView $this
-  * @var \<?= $namespace ?>\Model\Entity\<?= $entityClass ?> $<?= $singularVar ?>
-
-  */
-CakePHPBakeCloseTag>
-<?php
 use Cake\Utility\Inflector;
 
 $associations += ['BelongsTo' => [], 'HasOne' => [], 'HasMany' => [], 'BelongsToMany' => []];
@@ -60,121 +38,174 @@ $groupedFields = collection($fields)
 $groupedFields += ['number' => [], 'string' => [], 'boolean' => [], 'date' => [], 'text' => []];
 $pk = "\$$singularVar->{$primaryKey[0]}";
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
-    <ul class="side-nav">
-        <li class="heading"><CakePHPBakeOpenTag= __('Actions') CakePHPBakeCloseTag></li>
-        <li><CakePHPBakeOpenTag= $this->Html->link(__('Edit <?= $singularHumanName ?>'), ['action' => 'edit', <?= $pk ?>]) CakePHPBakeCloseTag> </li>
-        <li><CakePHPBakeOpenTag= $this->Form->postLink(__('Delete <?= $singularHumanName ?>'), ['action' => 'delete', <?= $pk ?>], ['confirm' => __('Are you sure you want to delete # {0}?', <?= $pk ?>)]) CakePHPBakeCloseTag> </li>
-        <li><CakePHPBakeOpenTag= $this->Html->link(__('List <?= $pluralHumanName ?>'), ['action' => 'index']) CakePHPBakeCloseTag> </li>
-        <li><CakePHPBakeOpenTag= $this->Html->link(__('New <?= $singularHumanName ?>'), ['action' => 'add']) CakePHPBakeCloseTag> </li>
-<?php
-    $done = [];
-    foreach ($associations as $type => $data) {
-        foreach ($data as $alias => $details) {
-            if ($details['controller'] !== $this->name && !in_array($details['controller'], $done)) {
-?>
-        <li><CakePHPBakeOpenTag= $this->Html->link(__('List <?= $this->_pluralHumanName($alias) ?>'), ['controller' => '<?= $details['controller'] ?>', 'action' => 'index']) CakePHPBakeCloseTag> </li>
-        <li><CakePHPBakeOpenTag= $this->Html->link(__('New <?= Inflector::humanize(Inflector::singularize(Inflector::underscore($alias))) ?>'), ['controller' => '<?= $details['controller'] ?>', 'action' => 'add']) CakePHPBakeCloseTag> </li>
-<?php
-                $done[] = $details['controller'];
-            }
-        }
-    }
-?>
-    </ul>
-</nav>
-<div class="<?= $pluralVar ?> view large-9 medium-8 columns content">
-    <h3><CakePHPBakeOpenTag= h($<?= $singularVar ?>-><?= $displayField ?>) CakePHPBakeCloseTag></h3>
-    <table class="vertical-table">
-<?php if ($groupedFields['string']) : ?>
-<?php foreach ($groupedFields['string'] as $field) : ?>
-<?php if (isset($associationFields[$field])) :
-            $details = $associationFields[$field];
-?>
-        <tr>
-            <th scope="row"><CakePHPBakeOpenTag= __('<?= Inflector::humanize($details['property']) ?>') CakePHPBakeCloseTag></th>
-            <td><CakePHPBakeOpenTag= $<?= $singularVar ?>->has('<?= $details['property'] ?>') ? $this->Html->link($<?= $singularVar ?>-><?= $details['property'] ?>-><?= $details['displayField'] ?>, ['controller' => '<?= $details['controller'] ?>', 'action' => 'view', $<?= $singularVar ?>-><?= $details['property'] ?>-><?= $details['primaryKey'][0] ?>]) : '' CakePHPBakeCloseTag></td>
-        </tr>
-<?php else : ?>
-        <tr>
-            <th scope="row"><CakePHPBakeOpenTag= __('<?= Inflector::humanize($field) ?>') CakePHPBakeCloseTag></th>
-            <td><CakePHPBakeOpenTag= h($<?= $singularVar ?>-><?= $field ?>) CakePHPBakeCloseTag></td>
-        </tr>
-<?php endif; ?>
-<?php endforeach; ?>
-<?php endif; ?>
-<?php if ($associations['HasOne']) : ?>
-<?php foreach ($associations['HasOne'] as $alias => $details) : ?>
-        <tr>
-            <th scope="row"><CakePHPBakeOpenTag= __('<?= Inflector::humanize(Inflector::singularize(Inflector::underscore($alias))) ?>') CakePHPBakeCloseTag></th>
-            <td><CakePHPBakeOpenTag= $<?= $singularVar ?>->has('<?= $details['property'] ?>') ? $this->Html->link($<?= $singularVar ?>-><?= $details['property'] ?>-><?= $details['displayField'] ?>, ['controller' => '<?= $details['controller'] ?>', 'action' => 'view', $<?= $singularVar ?>-><?= $details['property'] ?>-><?= $details['primaryKey'][0] ?>]) : '' CakePHPBakeCloseTag></td>
-        </tr>
-<?php endforeach; ?>
-<?php endif; ?>
-<?php if ($groupedFields['number']) : ?>
-<?php foreach ($groupedFields['number'] as $field) : ?>
-        <tr>
-            <th scope="row"><CakePHPBakeOpenTag= __('<?= Inflector::humanize($field) ?>') CakePHPBakeCloseTag></th>
-            <td><CakePHPBakeOpenTag= $this->Number->format($<?= $singularVar ?>-><?= $field ?>) CakePHPBakeCloseTag></td>
-        </tr>
-<?php endforeach; ?>
-<?php endif; ?>
-<?php if ($groupedFields['date']) : ?>
-<?php foreach ($groupedFields['date'] as $field) : ?>
-        <tr>
-            <th scope="row"><?= "<?= __('" . Inflector::humanize($field) . "') ?>" ?></th>
-            <td><CakePHPBakeOpenTag= h($<?= $singularVar ?>-><?= $field ?>) CakePHPBakeCloseTag></td>
-        </tr>
-<?php endforeach; ?>
-<?php endif; ?>
-<?php if ($groupedFields['boolean']) : ?>
-<?php foreach ($groupedFields['boolean'] as $field) : ?>
-        <tr>
-            <th scope="row"><CakePHPBakeOpenTag= __('<?= Inflector::humanize($field) ?>') CakePHPBakeCloseTag></th>
-            <td><CakePHPBakeOpenTag= $<?= $singularVar ?>-><?= $field ?> ? __('Yes') : __('No'); CakePHPBakeCloseTag></td>
-        </tr>
-<?php endforeach; ?>
-<?php endif; ?>
-    </table>
-<?php if ($groupedFields['text']) : ?>
-<?php foreach ($groupedFields['text'] as $field) : ?>
-    <div class="row">
-        <h4><CakePHPBakeOpenTag= __('<?= Inflector::humanize($field) ?>') CakePHPBakeCloseTag></h4>
-        <CakePHPBakeOpenTag= $this->Text->autoParagraph(h($<?= $singularVar ?>-><?= $field ?>)); CakePHPBakeCloseTag>
+<section class="content-header">
+  <h1>
+    <CakePHPBakeOpenTagphp echo __('<?= $singularHumanName ?>'); CakePHPBakeCloseTag>
+  </h1>
+  <ol class="breadcrumb">
+    <li>
+    <CakePHPBakeOpenTag= $this->Html->link('<i class="fa fa-dashboard"></i> ' . __('Back'), ['action' => 'index'], ['escape' => false])CakePHPBakeCloseTag>
+    </li>
+  </ol>
+</section>
+
+<!-- Main content -->
+<section class="content">
+<div class="row">
+    <div class="col-md-12">
+        <div class="box box-solid">
+            <div class="box-header with-border">
+                <i class="fa fa-info"></i>
+                <h3 class="box-title"><CakePHPBakeOpenTagphp echo __('Information'); CakePHPBakeCloseTag></h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+                <dl class="dl-horizontal">
+                    <?php if ($groupedFields['string']) : ?>
+                        <?php foreach ($groupedFields['string'] as $field) : ?>
+                            <?php if (isset($associationFields[$field])) :
+                                $details = $associationFields[$field];
+                                ?>
+                                <dt><CakePHPBakeOpenTag= __('<?= Inflector::humanize($details['property']) ?>') CakePHPBakeCloseTag></dt>
+                                <dd>
+                                    <CakePHPBakeOpenTag= $<?= $singularVar ?>->has('<?= $details['property'] ?>') ? $<?= $singularVar ?>-><?= $details['property'] ?>-><?= $details['displayField'] ?> : '' CakePHPBakeCloseTag>
+                                </dd>
+                            <?php else :
+                                    if ($field != 'password') :?>
+                                        <dt><CakePHPBakeOpenTag= __('<?= Inflector::humanize($field) ?>') CakePHPBakeCloseTag></dt>
+                                        <dd>
+                                            <CakePHPBakeOpenTag= h($<?= $singularVar ?>-><?= $field ?>) CakePHPBakeCloseTag>
+                                        </dd>
+                                    <?php endif; ?>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
+                        
+                    <?php if ($associations['HasOne']) : ?>
+                        <?php foreach ($associations['HasOne'] as $alias => $details) : ?>
+                            <dt><CakePHPBakeOpenTag= __('<?= Inflector::humanize(Inflector::singularize(Inflector::underscore($alias))) ?>') CakePHPBakeCloseTag></dt>
+                            <dd>
+                                <CakePHPBakeOpenTag= $<?= $singularVar ?>->has('<?= $details['property'] ?>') ? $this->Html->link($<?= $singularVar ?>-><?= $details['property'] ?>-><?= $details['displayField'] ?>, ['controller' => '<?= $details['controller'] ?>', 'action' => 'view', $<?= $singularVar ?>-><?= $details['property'] ?>-><?= $details['primaryKey'][0] ?>]) : '' CakePHPBakeCloseTag>
+                            </dd>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
+                        
+                    <?php if ($groupedFields['number']) : ?>
+                        <?php foreach ($groupedFields['number'] as $field) : ?>
+                            <?php if ($field != $primaryKey[0]) :?>
+                                <dt><CakePHPBakeOpenTag= __('<?= Inflector::humanize($field) ?>') CakePHPBakeCloseTag></dt>
+                                <dd>
+                                    <CakePHPBakeOpenTag= $this->Number->format($<?= $singularVar ?>-><?= $field ?>) CakePHPBakeCloseTag>
+                                </dd>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
+                        
+                    <?php if ($groupedFields['date']) : ?>
+                        <?php foreach ($groupedFields['date'] as $field) : ?>
+                            <?php if (!in_array($field, ['created', 'modified', 'updated'])) : ?>
+                                <dt><?= "<?= __('" . Inflector::humanize($field) . "') ?>" ?></dt>
+                                <dd>
+                                    <CakePHPBakeOpenTag= h($<?= $singularVar ?>-><?= $field ?>) CakePHPBakeCloseTag>
+                                </dd>
+                                <?php endif; ?>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
+                        
+                    <?php if ($groupedFields['boolean']) : ?>
+                        <?php foreach ($groupedFields['boolean'] as $field) : ?>
+                            <dt><CakePHPBakeOpenTag= __('<?= Inflector::humanize($field) ?>') CakePHPBakeCloseTag></dt>
+                            <dd>
+                            <CakePHPBakeOpenTag= $<?= $singularVar ?>-><?= $field ?> ? __('Yes') : __('No'); CakePHPBakeCloseTag>
+                            </dd>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
+                        
+                    <?php if ($groupedFields['text']) : ?>
+                        <?php foreach ($groupedFields['text'] as $field) : ?>
+                            <dt><CakePHPBakeOpenTag= __('<?= Inflector::humanize($field) ?>') CakePHPBakeCloseTag></dt>
+                            <dd>
+                            <CakePHPBakeOpenTag= $this->Text->autoParagraph(h($<?= $singularVar ?>-><?= $field ?>)); CakePHPBakeCloseTag>
+                            </dd>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
+                </dl>
+            </div>
+            <!-- /.box-body -->
+        </div>
+        <!-- /.box -->
     </div>
-<?php endforeach; ?>
-<?php endif; ?>
+    <!-- ./col -->
+</div>
+<!-- div -->
+
 <?php
 $relations = $associations['HasMany'] + $associations['BelongsToMany'];
 foreach ($relations as $alias => $details):
     $otherSingularVar = Inflector::variable($alias);
     $otherPluralHumanName = Inflector::humanize(Inflector::underscore($details['controller']));
     ?>
-    <div class="related">
-        <h4><CakePHPBakeOpenTag= __('Related <?= $otherPluralHumanName ?>') CakePHPBakeCloseTag></h4>
-        <CakePHPBakeOpenTagphp if (!empty($<?= $singularVar ?>-><?= $details['property'] ?>)): CakePHPBakeCloseTag>
-        <table cellpadding="0" cellspacing="0">
-            <tr>
-<?php foreach ($details['fields'] as $field): ?>
-                <th scope="col"><CakePHPBakeOpenTag= __('<?= Inflector::humanize($field) ?>') CakePHPBakeCloseTag></th>
-<?php endforeach; ?>
-                <th scope="col" class="actions"><CakePHPBakeOpenTag= __('Actions') CakePHPBakeCloseTag></th>
-            </tr>
-            <CakePHPBakeOpenTagphp foreach ($<?= $singularVar ?>-><?= $details['property'] ?> as $<?= $otherSingularVar ?>): CakePHPBakeCloseTag>
-            <tr>
-<?php foreach ($details['fields'] as $field): ?>
-                <td><CakePHPBakeOpenTag= h($<?= $otherSingularVar ?>-><?= $field ?>) CakePHPBakeCloseTag></td>
-<?php endforeach; ?>
-<?php $otherPk = "\${$otherSingularVar}->{$details['primaryKey'][0]}"; ?>
-                <td class="actions">
-                    <CakePHPBakeOpenTag= $this->Html->link(__('View'), ['controller' => '<?= $details['controller'] ?>', 'action' => 'view', <?= $otherPk ?>]) CakePHPBakeCloseTag>
-                    <CakePHPBakeOpenTag= $this->Html->link(__('Edit'), ['controller' => '<?= $details['controller'] ?>', 'action' => 'edit', <?= $otherPk ?>]) CakePHPBakeCloseTag>
-                    <CakePHPBakeOpenTag= $this->Form->postLink(__('Delete'), ['controller' => '<?= $details['controller'] ?>', 'action' => 'delete', <?= $otherPk ?>], ['confirm' => __('Are you sure you want to delete # {0}?', <?= $otherPk ?>)]) CakePHPBakeCloseTag>
-                </td>
-            </tr>
-            <CakePHPBakeOpenTagphp endforeach; CakePHPBakeCloseTag>
-        </table>
-        <CakePHPBakeOpenTagphp endif; CakePHPBakeCloseTag>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+                    <i class="fa fa-share-alt"></i>
+                    <h3 class="box-title"><CakePHPBakeOpenTag= __('Related {0}', ['<?= $otherPluralHumanName ?>']) CakePHPBakeCloseTag></h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body table-responsive no-padding">
+
+                <CakePHPBakeOpenTagphp if (!empty($<?= $singularVar ?>-><?= $details['property'] ?>)): CakePHPBakeCloseTag>
+
+                    <table class="table table-hover">
+                        <tbody>
+                            <tr>
+                                <?php foreach ($details['fields'] as $field): ?>
+                                    <?php if (in_array($field, ['created', 'modified'])) { continue; } ?>
+
+                                    <th>
+                                    <?= Inflector::humanize($field) ?>
+
+                                    </th>
+                                        
+                                <?php endforeach; ?>
+                                    
+                                <th>
+                                    <CakePHPBakeOpenTagphp echo __('Actions'); CakePHPBakeCloseTag>
+                                </th>
+                            </tr>
+
+                            <CakePHPBakeOpenTagphp foreach ($<?= $singularVar ?>-><?= $details['property'] ?> as $<?= $otherSingularVar ?>): CakePHPBakeCloseTag>
+                                <tr>
+                                    <?php foreach ($details['fields'] as $field): ?>
+                                    <?php if (in_array($field, ['created', 'modified'])) { continue; } ?>
+
+                                    <td>
+                                    <CakePHPBakeOpenTag= h($<?= $otherSingularVar ?>-><?= $field ?>) CakePHPBakeCloseTag>
+                                    </td>
+                                    <?php endforeach; ?>
+
+                                    <?php $otherPk = "\${$otherSingularVar}->{$details['primaryKey'][0]}"; ?>
+                                    <td class="actions">
+                                    <CakePHPBakeOpenTag= $this->Html->link(__('View'), ['controller' => '<?= $details['controller'] ?>', 'action' => 'view', <?= $otherPk ?>], ['class'=>'btn btn-info btn-xs']) ?>
+
+                                    <CakePHPBakeOpenTag= $this->Html->link(__('Edit'), ['controller' => '<?= $details['controller'] ?>', 'action' => 'edit', <?= $otherPk ?>], ['class'=>'btn btn-warning btn-xs']) ?>
+
+                                    <CakePHPBakeOpenTag= $this->Form->postLink(__('Delete'), ['controller' => '<?= $details['controller'] ?>', 'action' => 'delete', <?= $otherPk ?>], ['confirm' => __('Are you sure you want to delete # {0}?', <?= $otherPk ?>), 'class'=>'btn btn-danger btn-xs']) ?>    
+                                    </td>
+                                </tr>
+                            <CakePHPBakeOpenTagphp endforeach; CakePHPBakeCloseTag>
+                                    
+                        </tbody>
+                    </table>
+
+                <CakePHPBakeOpenTagphp endif; CakePHPBakeCloseTag>
+
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </div>
     </div>
 <?php endforeach; ?>
-</div>
+</section>

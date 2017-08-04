@@ -73,8 +73,8 @@ class UsersFixture extends TestFixture
             'bairro' => 'Lorem ipsum dolor sit amet',
             'cidade' => 'Lorem ipsum dolor sit amet',
             'complemento' => 'Lorem ipsum dolor sit amet',
-            'created' => '2017-07-27 23:08:16',
-            'modified' => '2017-07-27 23:08:16',
+            'created' => '2017-08-02 23:46:39',
+            'modified' => '2017-08-02 23:46:39',
             'institution_id' => 1,
             'estado' => 'Lorem ipsum dolor sit amet'
         ],

@@ -18,19 +18,19 @@ $compact = ["'" . $singularName . "'"];
     /**
      * Add method
      *
-     * @return \Cake\Http\Response|null Redirects on successful add, renders view otherwise.
+     * @return \Cake\Network\Response|void Redirects on successful add, renders view otherwise.
      */
     public function add()
     {
         $<?= $singularName ?> = $this-><?= $currentModelName ?>->newEntity();
         if ($this->request->is('post')) {
-            $<?= $singularName ?> = $this-><?= $currentModelName ?>->patchEntity($<?= $singularName ?>, $this->request->getData());
+            $<?= $singularName ?> = $this-><?= $currentModelName ?>->patchEntity($<?= $singularName ?>, $this->request->data);
             if ($this-><?= $currentModelName; ?>->save($<?= $singularName ?>)) {
-                $this->Flash->success(__('The <?= strtolower($singularHumanName) ?> has been saved.'));
-
+                $this->Flash->success(__('The {0} has been saved.', '<?= $singularHumanName ?>'));
                 return $this->redirect(['action' => 'index']);
+            } else {
+                $this->Flash->error(__('The {0} could not be saved. Please, try again.', '<?= $singularHumanName ?>'));
             }
-            $this->Flash->error(__('The <?= strtolower($singularHumanName) ?> could not be saved. Please, try again.'));
         }
 <?php
         $associations = array_merge(
@@ -39,7 +39,7 @@ $compact = ["'" . $singularName . "'"];
         );
         foreach ($associations as $assoc):
             $association = $modelObj->association($assoc);
-            $otherName = $association->getTarget()->getAlias();
+            $otherName = $association->target()->alias();
             $otherPlural = $this->_variableName($otherName);
 ?>
         $<?= $otherPlural ?> = $this-><?= $currentModelName ?>-><?= $otherName ?>->find('list', ['limit' => 200]);
