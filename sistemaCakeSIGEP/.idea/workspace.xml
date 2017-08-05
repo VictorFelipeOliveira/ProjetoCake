@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b35ef71c-5dd8-4dba-b332-b3ea3dea8649" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="220" column="22" lean-forward="true" selection-start-line="219" selection-start-column="22" selection-end-line="220" selection-end-column="22" />
+            <state relative-caret-position="289">
+              <caret line="231" column="35" lean-forward="false" selection-start-line="231" selection-start-column="35" selection-end-line="231" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -88,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
@@ -110,9 +109,9 @@
         <option value="$PROJECT_DIR$/src/Template/Users/view.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Institutions/view.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Users/add.ctp" />
-        <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/src/Template/Users/index.ctp" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/config/app.php" />
       </list>
     </option>
   </component>
@@ -225,12 +224,12 @@
       <workItem from="1501953303178" duration="3566000" />
       <workItem from="1501956953935" duration="4062000" />
       <workItem from="1501962680081" duration="67000" />
-      <workItem from="1501962750093" duration="1982000" />
+      <workItem from="1501962750093" duration="2353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13122000" />
+    <option name="totallyTimeSpent" value="13493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
@@ -560,14 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="220" column="22" lean-forward="true" selection-start-line="219" selection-start-column="22" selection-end-line="220" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/Layout/login.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1242">
@@ -596,6 +587,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="231" column="35" lean-forward="false" selection-start-line="231" selection-start-column="35" selection-end-line="231" selection-end-column="35" />
           <folding />
         </state>
       </provider>
