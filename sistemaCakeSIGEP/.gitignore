@@ -1,4 +1,4 @@
-/vendor/*
-/config/app.php
-/tmp/*
-/logs/*
+/home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/*
+/home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/config/app.php
+/home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/tmp/*
+/home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/logs/*
