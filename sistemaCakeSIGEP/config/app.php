@@ -230,8 +230,8 @@ return [
              */
             //'port' => 'non_standard_port_number',
             'username' => 'root',
-            'password' => 'corinthians',
-            'database' => 'BD_sistema_cakephp3',
+            'password' => 'root',
+            'database' => 'mydb',
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'flags' => [],

@@ -4670,3 +4670,83 @@ Stack Trace:
 #15 {main}
 
 
+2017-08-05 19:49:58 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 174
+Request URL: /
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(174): PDOStatement->execute(NULL)
+#1 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(174): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php(76): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php(41): Cake\Database\Statement\BufferedStatement->execute(NULL)
+#4 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Database/Connection.php(311): Cake\Database\Statement\SqliteStatement->execute()
+#5 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Database/Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#6 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/ORM/Table.php(1916): Cake\Database\Query->execute()
+#7 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/ORM/Table.php(1810): Cake\ORM\Table->_insert(Object(DebugKit\Model\Entity\Request), Array)
+#8 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/ORM/Table.php(1723): Cake\ORM\Table->_processSave(Object(DebugKit\Model\Entity\Request), Object(ArrayObject))
+#9 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/ORM/Table.php(1446): Cake\ORM\Table->Cake\ORM\{closure}()
+#10 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Database/Connection.php(678): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#11 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/ORM/Table.php(1447): Cake\Database\Connection->transactional(Object(Closure))
+#12 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/ORM/Table.php(1724): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#13 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/debug_kit/src/ToolbarService.php(204): Cake\ORM\Table->save(Object(DebugKit\Model\Entity\Request))
+#14 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/webroot/index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+
+2017-08-05 19:55:39 Error: [PDOException] SQLSTATE[HY000]: General error: 11 database disk image is malformed in /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 174
+Request URL: /
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(174): PDOStatement->execute(NULL)
+#1 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(174): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php(76): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php(41): Cake\Database\Statement\BufferedStatement->execute(NULL)
+#4 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Database/Connection.php(311): Cake\Database\Statement\SqliteStatement->execute()
+#5 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Database/Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#6 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/ORM/Table.php(1916): Cake\Database\Query->execute()
+#7 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/ORM/Table.php(1810): Cake\ORM\Table->_insert(Object(DebugKit\Model\Entity\Request), Array)
+#8 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/ORM/Table.php(1723): Cake\ORM\Table->_processSave(Object(DebugKit\Model\Entity\Request), Object(ArrayObject))
+#9 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/ORM/Table.php(1446): Cake\ORM\Table->Cake\ORM\{closure}()
+#10 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Database/Connection.php(678): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#11 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/ORM/Table.php(1447): Cake\Database\Connection->transactional(Object(Closure))
+#12 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/ORM/Table.php(1724): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#13 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/debug_kit/src/ToolbarService.php(204): Cake\ORM\Table->save(Object(DebugKit\Model\Entity\Request))
+#14 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/webroot/index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+
+2017-08-05 19:57:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/AdminLTE.skins/skin-.min.css
+Referer URL: http://localhost:8765/users
+Stack Trace:
+#0 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/victor/Projetos/ProjetoCake/sistemaCakeSIGEP/webroot/index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
