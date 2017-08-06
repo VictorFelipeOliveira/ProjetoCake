@@ -74,7 +74,7 @@ if (file_exists($file)) {
             <li class="dropdown tasks-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     <i class="fa fa-flag-o"></i>
-                    <span class="label label-danger">9</span>
+                    <span class="label label-danger">1</span>
                 </a>
                 <ul class="dropdown-menu">
                     <li class="header">You have 9 tasks</li>
@@ -102,6 +102,7 @@ if (file_exists($file)) {
                     </li>
                 </ul>
             </li>
+
             <!-- User Account: style can be found in dropdown.less -->
             <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -148,6 +149,10 @@ if (file_exists($file)) {
             <li>
                 <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
             </li>
+
+            <?php if($username): ?>
+                <li><?= $this->html->link(__('Logout'),['controller' => 'Users', 'action' => 'logout'])?></li>
+            <?php endif; ?>
         </ul>
     </div>
 </nav>

@@ -1,7 +1,7 @@
 <?php
 namespace App\Controller;
 
-use App\Controller\AppController;
+use App\Controller\AppController\Admin;
 
 /**
  * Users Controller
@@ -39,7 +39,7 @@ class UsersController extends AppController
     public function view($id = null)
     {
         $user = $this->Users->get($id, [
-            'contain' => ['Institutions', 'UsersHasGroups', 'UsersHasProjects']
+            'contain' => ['Institutions']
         ]);
 
         $this->set('user', $user);

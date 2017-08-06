@@ -1,7 +1,7 @@
 <section class="content-header">
   <h1>
     User
-    <small><?= __('Add') ?></small>
+    <small><?= __('Edit') ?></small>
   </h1>
   <ol class="breadcrumb">
     <li>
@@ -31,13 +31,13 @@
             echo $this->Form->input('cpf');
             echo $this->Form->input('email');
             echo $this->Form->input('telefone');
+            echo $this->Form->input('modalidade');
             echo $this->Form->input('rua');
             echo $this->Form->input('numero');
             echo $this->Form->input('bairro');
             echo $this->Form->input('cidade');
             echo $this->Form->input('complemento');
             echo $this->Form->input('institution_id', ['options' => $institutions]);
-            echo $this->Form->input('role_id');
           ?>
           </div>
           <!-- /.box-body -->

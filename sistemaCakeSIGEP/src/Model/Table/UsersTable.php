@@ -10,6 +10,9 @@ use Cake\Validation\Validator;
  * Users Model
  *
  * @property \App\Model\Table\InstitutionsTable|\Cake\ORM\Association\BelongsTo $Institutions
+ * @property |\Cake\ORM\Association\BelongsTo $Roles
+ * @property \App\Model\Table\UsersHasGroupsTable|\Cake\ORM\Association\HasMany $UsersHasGroups
+ * @property \App\Model\Table\UsersHasProjectsTable|\Cake\ORM\Association\HasMany $UsersHasProjects
  *
  * @method \App\Model\Entity\User get($primaryKey, $options = [])
  * @method \App\Model\Entity\User newEntity($data = null, array $options = [])
@@ -44,6 +47,16 @@ class UsersTable extends Table
             'foreignKey' => 'institution_id',
             'joinType' => 'INNER'
         ]);
+        $this->belongsTo('Roles', [
+            'foreignKey' => 'role_id',
+            'joinType' => 'INNER'
+        ]);
+        $this->hasMany('UsersHasGroups', [
+            'foreignKey' => 'user_id'
+        ]);
+        $this->hasMany('UsersHasProjects', [
+            'foreignKey' => 'user_id'
+        ]);
     }
 
     /**
@@ -59,9 +72,8 @@ class UsersTable extends Table
             ->allowEmpty('id', 'create');
 
         $validator
-            ->requirePresence('login', 'create')
-            ->notEmpty('login')
-            ->add('login', 'unique', ['rule' => 'validateUnique', 'provider' => 'table']);
+            ->requirePresence('username', 'create')
+            ->notEmpty('username');
 
         $validator
             ->requirePresence('password', 'create')
@@ -69,8 +81,7 @@ class UsersTable extends Table
 
         $validator
             ->requirePresence('nome', 'create')
-            ->notEmpty('nome')
-            ->add('nome', 'unique', ['rule' => 'validateUnique', 'provider' => 'table']);
+            ->notEmpty('nome');
 
         $validator
             ->requirePresence('cpf', 'create')
@@ -84,12 +95,7 @@ class UsersTable extends Table
             ->add('email', 'unique', ['rule' => 'validateUnique', 'provider' => 'table']);
 
         $validator
-            ->allowEmpty('telefone')
-            ->add('telefone', 'unique', ['rule' => 'validateUnique', 'provider' => 'table']);
-
-        $validator
-            ->requirePresence('modalidade', 'create')
-            ->notEmpty('modalidade');
+            ->allowEmpty('telefone');
 
         $validator
             ->requirePresence('rua', 'create')
@@ -112,9 +118,6 @@ class UsersTable extends Table
             ->requirePresence('complemento', 'create')
             ->notEmpty('complemento');
 
-        $validator
-            ->allowEmpty('estado');
-
         return $validator;
     }
 
@@ -127,12 +130,11 @@ class UsersTable extends Table
      */
     public function buildRules(RulesChecker $rules)
     {
-        $rules->add($rules->isUnique(['login']));
+        $rules->add($rules->isUnique(['username']));
         $rules->add($rules->isUnique(['email']));
-        $rules->add($rules->isUnique(['nome']));
         $rules->add($rules->isUnique(['cpf']));
-        $rules->add($rules->isUnique(['telefone']));
         $rules->add($rules->existsIn(['institution_id'], 'Institutions'));
+        $rules->add($rules->existsIn(['role_id'], 'Roles'));
 
         return $rules;
     }

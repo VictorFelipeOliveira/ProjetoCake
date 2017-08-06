@@ -1,6 +1,6 @@
 <section class="content-header">
   <h1>
-    User
+    Function
     <small><?= __('Add') ?></small>
   </h1>
   <ol class="breadcrumb">
@@ -22,22 +22,10 @@
         </div>
         <!-- /.box-header -->
         <!-- form start -->
-        <?= $this->Form->create($user, array('role' => 'form')) ?>
+        <?= $this->Form->create($function, array('role' => 'form')) ?>
           <div class="box-body">
           <?php
-            echo $this->Form->input('username');
-            echo $this->Form->input('password');
-            echo $this->Form->input('nome');
-            echo $this->Form->input('cpf');
-            echo $this->Form->input('email');
-            echo $this->Form->input('telefone');
-            echo $this->Form->input('rua');
-            echo $this->Form->input('numero');
-            echo $this->Form->input('bairro');
-            echo $this->Form->input('cidade');
-            echo $this->Form->input('complemento');
-            echo $this->Form->input('institution_id', ['options' => $institutions]);
-            echo $this->Form->input('role_id');
+            echo $this->Form->input('function');
           ?>
           </div>
           <!-- /.box-body -->
