@@ -24,6 +24,7 @@ use Cake\ORM\Entity;
  * @property int $role_id
  *
  * @property \App\Model\Entity\Institution $institution
+ * @property \App\Model\Entity\Role $role
  * @property \App\Model\Entity\UsersHasGroup[] $users_has_groups
  * @property \App\Model\Entity\UsersHasProject[] $users_has_projects
  */

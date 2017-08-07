@@ -10,6 +10,8 @@
     </ol>
 </section>
 <!-- Main content -->
+
+<!-- Main content -->
 <section class="content">
     <div class="row">
         <!-- left column -->
@@ -17,25 +19,43 @@
             <!-- general form elements -->
             <div class="box box-primary">
                 <div class="box-header with-border">
-                    <h3 class="box-title"><?= __('Login') ?></h3>
+                    <h3 class="box-title"><?= __('Preencha os campos abaixo') ?></h3>
                 </div>
                 <!-- /.box-header -->
                 <!-- form start -->
-                <?= $this->Form->create('User') ?>
+                <?= $this->Form->create($user, array('role' => 'form')) ?>
                 <div class="box-body">
-                    <?php
-                    echo $this->Form->input('username');
-                    echo $this->Form->input('password');
-                    ?>
+                    <div class="container">
+                        <?php
+                        echo $this->Form->input('username');
+                        echo $this->Form->input('password');
+                        echo $this->Form->input('confirm_password', ['type' => 'password']);
+                        echo $this->Form->input('nome');
+                        echo $this->Form->input('cpf');
+                        echo $this->Form->input('email');
+                        echo $this->Form->input('telefone');
+                        echo $this->Form->input('rua');
+                        echo $this->Form->input('numero');
+                        echo $this->Form->input('bairro');
+                        echo $this->Form->input('cidade');
+                        echo $this->Form->input('complemento');
+                        echo $this->Form->input('institution_id', ['options' => $institutions]);
+                        echo $this->Form->input('role_id', ['options' => $roles]);
+                        ?>
+
+                    </div>
 
                 </div>
                 <!-- /.box-body -->
                 <div class="box-footer">
-                    <?= $this->Form->button(__('Entrar')) ?>
+                    <form method="post">
+                        <input type="submit" class="btn btn-md btn-default" value="Cadastrar">
+                    </form>
+                    <!--   <button type="button" class="btn btn-info"><?= $this->Form->button(__('Save')) ?></button> -->
+
                 </div>
                 <?= $this->Form->end() ?>
             </div>
         </div>
     </div>
-</section>
 

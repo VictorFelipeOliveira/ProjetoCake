@@ -52,8 +52,8 @@ class InstitutionsFixture extends TestFixture
             'bairro' => 'Lorem ipsum dolor sit amet',
             'cidade' => 'Lorem ipsum dolor sit amet',
             'complemento' => 'Lorem ipsum dolor sit amet',
-            'created' => '2017-08-06 01:50:30',
-            'modified' => '2017-08-06 01:50:30'
+            'created' => '2017-08-07 00:35:06',
+            'modified' => '2017-08-07 00:35:06'
         ],
     ];
 }

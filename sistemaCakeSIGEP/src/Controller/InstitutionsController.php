@@ -1,7 +1,7 @@
 <?php
 namespace App\Controller;
 
-use App\Controller\AppController\Admin;
+use App\Controller\AppController;
 
 /**
  * Institutions Controller

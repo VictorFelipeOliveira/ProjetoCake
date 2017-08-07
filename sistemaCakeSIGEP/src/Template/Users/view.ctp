@@ -4,7 +4,7 @@
   </h1>
   <ol class="breadcrumb">
     <li>
-    <?= $this->Html->link('<i class="fa fa-dashboard"></i> ' . __('Back'), ['action' => 'index'], ['escape' => false])?>
+    <?= $this->Html->link('<i class="fa fa-dashboard"></i> ' . __('Tela Inicial'), ['action' => 'index'], ['escape' => false])?>
     </li>
   </ol>
 </section>
@@ -61,15 +61,15 @@
                                 <dd>
                                     <?= $user->has('institution') ? $user->institution->nome : '' ?>
                                 </dd>
+                                                                                                                <dt><?= __('Role') ?></dt>
+                                <dd>
+                                    <?= $user->has('role') ? $user->role->id : '' ?>
+                                </dd>
                                                                                                 
                                             
                                                                                                                                                             <dt><?= __('Numero') ?></dt>
                                 <dd>
                                     <?= $this->Number->format($user->numero) ?>
-                                </dd>
-                                                                                                                <dt><?= __('Role Id') ?></dt>
-                                <dd>
-                                    <?= $this->Number->format($user->role_id) ?>
                                 </dd>
                                                                                                 
                                                                                                                                                                                                 

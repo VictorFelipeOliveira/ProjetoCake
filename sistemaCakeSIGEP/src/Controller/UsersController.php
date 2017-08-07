@@ -21,7 +21,7 @@ class UsersController extends AppController
     public function index()
     {
         $this->paginate = [
-            'contain' => ['Institutions']
+            'contain' => ['Institutions', 'Roles']
         ];
         $users = $this->paginate($this->Users);
 
@@ -39,7 +39,7 @@ class UsersController extends AppController
     public function view($id = null)
     {
         $user = $this->Users->get($id, [
-            'contain' => ['Institutions', 'UsersHasGroups', 'UsersHasProjects']
+            'contain' => ['Institutions', 'Roles', 'UsersHasGroups', 'UsersHasProjects']
         ]);
 
         $this->set('user', $user);
@@ -64,7 +64,8 @@ class UsersController extends AppController
             }
         }
         $institutions = $this->Users->Institutions->find('list', ['limit' => 200]);
-        $this->set(compact('user', 'institutions'));
+        $roles = $this->Users->Roles->find('list', ['limit' => 200]);
+        $this->set(compact('user', 'institutions', 'roles'));
         $this->set('_serialize', ['user']);
     }
 
@@ -90,7 +91,8 @@ class UsersController extends AppController
             }
         }
         $institutions = $this->Users->Institutions->find('list', ['limit' => 200]);
-        $this->set(compact('user', 'institutions'));
+        $roles = $this->Users->Roles->find('list', ['limit' => 200]);
+        $this->set(compact('user', 'institutions', 'roles'));
         $this->set('_serialize', ['user']);
     }
 
@@ -120,6 +122,7 @@ class UsersController extends AppController
                 $this->Auth->setUser($user);
                 return $this->redirect($this->Auth->redirectUrl());
             }
+
             $this->Flash->error(__('Username ou senha invalidos, tente novamente'));
         }
     }

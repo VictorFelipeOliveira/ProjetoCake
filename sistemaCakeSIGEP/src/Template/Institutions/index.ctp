@@ -1,8 +1,8 @@
 <!-- Content Header (Page header) -->
 <section class="content-header">
   <h1>
-    Institutions
-    <div class="pull-right"><?= $this->Html->link(__('New'), ['action' => 'add'], ['class'=>'btn btn-success btn-xs']) ?></div>
+    Instituicoes
+    <div class="pull-right"><?= $this->Html->link(__('Nova Instituicao'), ['action' => 'add'], ['class'=>'btn btn-sm btn-success ']) ?></div>
   </h1>
 </section>
 
@@ -12,13 +12,13 @@
     <div class="col-xs-12">
       <div class="box">
         <div class="box-header">
-          <h3 class="box-title"><?= __('List of') ?> Institutions</h3>
+          <h3 class="box-title"><?= __('Lista de Instituicoes') ?></h3>
           <div class="box-tools">
             <form action="<?php echo $this->Url->build(); ?>" method="POST">
               <div class="input-group input-group-sm"  style="width: 180px;">
-                <input type="text" name="search" class="form-control" placeholder="<?= __('Fill in to start search') ?>">
+                <input type="text" name="search" class="form-control" placeholder="<?= __('Pesquisar') ?>">
                 <span class="input-group-btn">
-                <button class="btn btn-info btn-flat" type="submit"><?= __('Filter') ?></button>
+                <button class="btn btn-info btn-flat" type="submit"><?= __('Buscar') ?></button>
                 </span>
               </div>
             </form>
@@ -29,14 +29,14 @@
           <table class="table table-hover">
             <thead>
               <tr>
-                <th><?= $this->Paginator->sort('id') ?></th>
+                <th><?= $this->Paginator->sort('ID') ?></th>
                 <th><?= $this->Paginator->sort('nome') ?></th>
-                <th><?= $this->Paginator->sort('cnpj') ?></th>
+                <th><?= $this->Paginator->sort('CNPJ') ?></th>
                 <th><?= $this->Paginator->sort('rua') ?></th>
                 <th><?= $this->Paginator->sort('numero') ?></th>
                 <th><?= $this->Paginator->sort('bairro') ?></th>
                 <th><?= $this->Paginator->sort('cidade') ?></th>
-                <th><?= __('Actions') ?></th>
+                <th><?= __('Funcoes') ?></th>
               </tr>
             </thead>
             <tbody>
@@ -50,9 +50,9 @@
                 <td><?= h($institution->bairro) ?></td>
                 <td><?= h($institution->cidade) ?></td>
                 <td class="actions" style="white-space:nowrap">
-                  <?= $this->Html->link(__('View'), ['action' => 'view', $institution->id], ['class'=>'btn btn-info btn-xs']) ?>
-                  <?= $this->Html->link(__('Edit'), ['action' => 'edit', $institution->id], ['class'=>'btn btn-warning btn-xs']) ?>
-                  <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $institution->id], ['confirm' => __('Confirm to delete this entry?'), 'class'=>'btn btn-danger btn-xs']) ?>
+                  <?= $this->Html->link(__('Ver'), ['action' => 'view', $institution->id], ['class'=>'btn btn-info btn-sm']) ?>
+                  <?= $this->Html->link(__('Editar'), ['action' => 'edit', $institution->id], ['class'=>'btn btn-warning btn-sm']) ?>
+                  <?= $this->Form->postLink(__('Excluir'), ['action' => 'delete', $institution->id], ['confirm' => __('Confirm to delete this entry?'), 'class'=>'btn btn-danger btn-sm']) ?>
                 </td>
               </tr>
             <?php endforeach; ?>

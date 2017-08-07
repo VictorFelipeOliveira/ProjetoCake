@@ -10,7 +10,7 @@ use Cake\Validation\Validator;
  * Users Model
  *
  * @property \App\Model\Table\InstitutionsTable|\Cake\ORM\Association\BelongsTo $Institutions
- * @property |\Cake\ORM\Association\BelongsTo $Roles
+ * @property \App\Model\Table\RolesTable|\Cake\ORM\Association\BelongsTo $Roles
  * @property \App\Model\Table\UsersHasGroupsTable|\Cake\ORM\Association\HasMany $UsersHasGroups
  * @property \App\Model\Table\UsersHasProjectsTable|\Cake\ORM\Association\HasMany $UsersHasProjects
  *
@@ -78,6 +78,15 @@ class UsersTable extends Table
         $validator
             ->requirePresence('password', 'create')
             ->notEmpty('password');
+
+        $validator
+            ->add(
+                'confirm_password',
+                'compareWith', [
+                    'rule' => [ 'compareWith', 'password'],
+                    'message' => 'Senhas nao conferem'
+                ]
+        );
 
         $validator
             ->requirePresence('nome', 'create')

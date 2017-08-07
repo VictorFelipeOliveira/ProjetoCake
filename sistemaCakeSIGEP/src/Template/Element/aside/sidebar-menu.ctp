@@ -9,10 +9,10 @@ if (file_exists($file)) {
 } else {
 ?>
 <ul class="sidebar-menu">
-    <li class="header">MAIN NAVIGATION</li>
+    <li class="header"><h3>Dashboard</h3></li>
     <li class="treeview">
         <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Painel de Controle</span> <i class="fa fa-angle-left pull-right"></i>
+            <i class="fa fa-dashboard"></i> <span>Gerenciamento de Usuarios</span> <i class="fa fa-angle-left pull-right"></i>
         </a>
         <ul class="treeview-menu">
             <li><a href="<?php echo $this->Url->build('/'); ?>"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
@@ -31,7 +31,7 @@ if (file_exists($file)) {
             <li><a href="<?php echo $this->Url->build('/pages/layout/fixed'); ?>"><i class="fa fa-circle-o"></i> Fixed</a></li>
             <li><a href="<?php echo $this->Url->build('/pages/layout/collapsed-sidebar'); ?>"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
         </ul>
-    </li>x
+    </li>
     <li>
         <a href="<?php echo $this->Url->build('/pages/widgets'); ?>">
             <i class="fa fa-th"></i> <span>Widgets</span>
