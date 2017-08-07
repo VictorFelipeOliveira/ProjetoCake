@@ -1,7 +1,7 @@
 <section class="content-header">
   <h1>
     Cadastrar Usuario
-   <!-- <small><?= __('Add') ?></small>-->
+
   </h1>
   <ol class="breadcrumb">
     <li>
@@ -131,15 +131,12 @@
 
               <div class="form-group">
                   <label for="sel1">Selecione a Instituiçao</label>
-                  <select class="form-control" id="sel1">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
+                  <select class="form-control" name="instituicoes" id="instituicao">
+
                   </select>
               </div>
 
-             <!--              <?php
+        <!--     <?php
 
 
               echo $this->Form->input('institution_id', ['options' => $institutions]);

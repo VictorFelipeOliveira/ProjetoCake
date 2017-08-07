@@ -2,7 +2,7 @@
 <section class="content-header">
   <h1>
     Funcoes e Papeis
-    <div class="pull-right"><?= $this->Html->link(__('Nova Funcao'), ['action' => 'add'], ['class'=>'btn btn-success btn-xs']) ?></div>
+    <div class="pull-right"><?= $this->Html->link(__('Nova Funcao'), ['action' => 'add'], ['class'=>'btn btn-success btn-sm']) ?></div>
   </h1>
 </section>
 
@@ -40,9 +40,9 @@
                 <td><?= $this->Number->format($role->id) ?></td>
                 <td><?= h($role->role) ?></td>
                 <td class="actions" style="white-space:nowrap">
-                  <?= $this->Html->link(__('Ver'), ['action' => 'view', $role->id], ['class'=>'btn btn-info btn-xs']) ?>
-                  <?= $this->Html->link(__('Editar'), ['action' => 'edit', $role->id], ['class'=>'btn btn-warning btn-xs']) ?>
-                  <?= $this->Form->postLink(__('Excluir'), ['action' => 'delete', $role->id], ['confirm' => __('Confirm to delete this entry?'), 'class'=>'btn btn-danger btn-xs']) ?>
+                  <?= $this->Html->link(__('Ver'), ['action' => 'view', $role->id], ['class'=>'btn btn-info btn-sm']) ?>
+                  <?= $this->Html->link(__('Editar'), ['action' => 'edit', $role->id], ['class'=>'btn btn-warning btn-sm']) ?>
+                  <?= $this->Form->postLink(__('Excluir'), ['action' => 'delete', $role->id], ['confirm' => __('Confirm to delete this entry?'), 'class'=>'btn btn-danger btn-sm']) ?>
                 </td>
               </tr>
             <?php endforeach; ?>

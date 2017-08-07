@@ -35,4 +35,14 @@ class Institution extends Entity
         '*' => true,
         'id' => false
     ];
+
+
+    public function return_institutions()
+    {
+
+        $this->order_by("nome", "asc");
+        $query = $this->get("institutions");
+
+        return $query;
+    }
 }

@@ -23,19 +23,38 @@
         <!-- form start -->
         <?= $this->Form->create($role, array('role' => 'form')) ?>
           <div class="box-body">
-              <div class="box-body">
-                  <div class="form-group">
-                      <label for="role" class="col-sm-12 control-label">Funçao</label>
-                      <div class="col-sm-5">
-                          <input type="text" class="form-control" id="role" name="role" placeholder="" value="">
+              <form class="form-horizontal">
+                  <div class="box-body">
+                      <div class="form-group">
+                          <label for="inputrole" class="col-sm-2 control-label">Funcao</label>
+
+                          <div class="col-sm-10">
+                              <input type="role" class="form-control" id="role" placeholder="role">
+                          </div>
                       </div>
+                      <br><br>
+                      <div class="form-group">
+                          <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+
+                          <div class="col-sm-10">
+                              <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                          </div>
+                      </div>
+
                   </div>
-              </div>
+                  <!-- /.box-body -->
+                  <div class="box-footer">
+                      <form method="post">
+                          <input type="submit" class="btn btn-md btn-default" value="Salvar">
+                      </form>
+                  </div>
+                  <!-- /.box-footer -->
+              </form>
           </div>
           <!-- /.box-body -->
           <div class="box-footer">
               <form method="post">
-                  <input type="submit" class="btn btn-md btn-default" value="Salvar">
+                  <input type="submit" class="btn btn-md btn-default pull-right" value="Salvar">
               </form>
           </div>
         <?= $this->Form->end() ?>

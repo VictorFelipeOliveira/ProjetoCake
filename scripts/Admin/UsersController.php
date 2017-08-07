@@ -1,7 +1,7 @@
 <?php
 namespace App\Controller;
 
-use App\Controller\AppController;
+use App\Controller\AppController\Admin;
 
 /**
  * Users Controller
@@ -21,14 +21,12 @@ class UsersController extends AppController
     public function index()
     {
         $this->paginate = [
-            'contain' => ['Institutions', 'Roles']
+            'contain' => ['Institutions']
         ];
         $users = $this->paginate($this->Users);
 
         $this->set(compact('users'));
         $this->set('_serialize', ['users']);
-
-
     }
 
     /**
@@ -41,7 +39,7 @@ class UsersController extends AppController
     public function view($id = null)
     {
         $user = $this->Users->get($id, [
-            'contain' => ['Institutions', 'Roles', 'UsersHasGroups', 'UsersHasProjects']
+            'contain' => ['Institutions']
         ]);
 
         $this->set('user', $user);
@@ -66,8 +64,7 @@ class UsersController extends AppController
             }
         }
         $institutions = $this->Users->Institutions->find('list', ['limit' => 200]);
-        $roles = $this->Users->Roles->find('list', ['limit' => 200]);
-        $this->set(compact('user', 'institutions', 'roles'));
+        $this->set(compact('user', 'institutions'));
         $this->set('_serialize', ['user']);
     }
 
@@ -93,8 +90,7 @@ class UsersController extends AppController
             }
         }
         $institutions = $this->Users->Institutions->find('list', ['limit' => 200]);
-        $roles = $this->Users->Roles->find('list', ['limit' => 200]);
-        $this->set(compact('user', 'institutions', 'roles'));
+        $this->set(compact('user', 'institutions'));
         $this->set('_serialize', ['user']);
     }
 
@@ -122,9 +118,8 @@ class UsersController extends AppController
             $user = $this->Auth->identify();
             if($user){
                 $this->Auth->setUser($user);
-                return $this->redirect($this->Auth->redirectUrl('/'));
+                return $this->redirect($this->Auth->redirectUrl());
             }
-
             $this->Flash->error(__('Username ou senha invalidos, tente novamente'));
         }
     }

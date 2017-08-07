@@ -1,7 +1,7 @@
 <?php
 namespace App\Controller;
 
-use App\Controller\AppController;
+use App\Controller\AppController\Admin;
 
 /**
  * Institutions Controller
@@ -107,6 +107,4 @@ class InstitutionsController extends AppController
         }
         return $this->redirect(['action' => 'index']);
     }
-
-
 }

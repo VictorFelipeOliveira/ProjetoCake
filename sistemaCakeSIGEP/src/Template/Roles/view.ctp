@@ -180,7 +180,7 @@
                                     </td>
                                     
                                                                         <td class="actions">
-                                    <?= $this->Html->link(__('Ver'), ['controller' => 'Users', 'action' => 'view', $users->id], ['class'=>'btn btn-info btn-xs']) ?>
+                                    <?= $this->Html->link(__('Ver'), ['controller' => 'Users', 'action' => 'view', $users->id], ['class'=>'btn btn-info btn-xm']) ?>
 
                                     <?= $this->Html->link(__('Editar'), ['controller' => 'Users', 'action' => 'edit', $users->id], ['class'=>'btn btn-warning btn-xs']) ?>
 

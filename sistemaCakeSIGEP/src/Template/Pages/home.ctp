@@ -46,19 +46,55 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
 <div class="w3-top">
     <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
         <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>Logo</a>
-        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="fa fa-globe"></i></a>
-        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-user"></i></a>
-        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>
+
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"></i>SIGEP</a>
         <div class="w3-dropdown-hover w3-hide-small">
-            <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>
+            <button class="w3-button w3-padding-large"  value="Projetos"><i class="fa fa-pencil w3-margin-right"></i>Projetos</button>
             <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
-                <a href="#" class="w3-bar-item w3-button">One new friend request</a>
-                <a href="#" class="w3-bar-item w3-button">John Doe posted on your wall</a>
-                <a href="#" class="w3-bar-item w3-button">Jane likes your post</a>
+                <a href="#" class="w3-bar-item w3-button">Novo Projeto</a>
+                <a href="#" class="w3-bar-item w3-button">Projetos Cadastrados</a>
+                <a href="#" class="w3-bar-item w3-button">Avaliar Projeto</a>
             </div>
         </div>
-        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="Minha conta"><img src="/w3images/avatar2.png" class="w3-circle" style="height:25px;width:25px" alt="Avatar"></a>
+
+        <div class="w3-dropdown-hover w3-hide-small">
+            <button class="w3-button w3-padding-large" value="Avaliacoes"><i class="fa fa-file w3-margin-right"></i>Avaliaçoes</button>
+            <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+                <a href="#" class="w3-bar-item w3-button">Nova Avaliaçao</a>
+                <a href="#" class="w3-bar-item w3-button">Avaliaçoes Realizadas</a>
+            </div>
+        </div>
+
+        <div class="w3-dropdown-hover w3-hide-small">
+            <button class="w3-button w3-padding-large" value="instituicoes"><i class="fa fa-home w3-margin-right"></i>Instituiçoes</button>
+            <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+                <a href="#" class="w3-bar-item w3-button">Cadastradas</a>
+            </div>
+        </div>
+
+        <div class="w3-dropdown-hover w3-hide-small">
+            <button class="w3-button w3-padding-large" value="quesitos"><i class="fa fa-info w3-margin-right"></i>Quesitos Avaliados</button>
+            <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+                <a href="#" class="w3-bar-item w3-button">Criterios</a>
+                <a href="#" class="w3-bar-item w3-button">Subcriterios</a>
+                <a href="#" class="w3-bar-item w3-button">Normas</a>
+                <a href="#" class="w3-bar-item w3-button">Eventos</a>
+            </div>
+        </div>
+
+        <div class="w3-dropdown-hover w3-hide-small">
+            <button class="w3-button w3-padding-large" value="ajuda"><i class="fa fa-question w3-margin-right"></i>Ajuda</button>
+            <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+                <a href="#" class="w3-bar-item w3-button">Como utilizar</a>
+            </div>
+        </div>
+        <!--
+
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="fa fa-globe"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-user"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a> -->
+
+        <a href="<?=__('Edit')?>" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="Minha conta"><i class="fa fa-user"></i></a>
     </div>
 </div>
 
@@ -92,36 +128,21 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
             <!-- Accordion -->
             <div class="w3-card-2 w3-round">
                 <div class="w3-white">
-                    <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i> Meus grupos</button>
+                    <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i> Meus grupos</button>
                     <div id="Demo1" class="w3-hide w3-container">
-                        <p>Some text..</p>
+                        <p>Metodologias Ageis</p>
                     </div>
-                    <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> Meus Projetos</button>
+                    <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-pencil fa-fw w3-margin-right"></i> Meus Projetos</button>
                     <div id="Demo2" class="w3-hide w3-container">
-                        <p>Some other text..</p>
+                        <p>Projeto TCC 1</p>
                     </div>
-                    <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i> Minhas Avaliaçoes</button>
+                    <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-file fa-fw w3-margin-right"></i> Minhas Avaliaçoes</button>
                     <div id="Demo3" class="w3-hide w3-container">
                         <div class="w3-row-padding">
-                            <br>
-                            <div class="w3-half">
-                                <img src="/w3images/lights.jpg" style="width:100%" class="w3-margin-bottom">
-                            </div>
-                            <div class="w3-half">
-                                <img src="/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
-                            </div>
-                            <div class="w3-half">
-                                <img src="/w3images/mountains.jpg" style="width:100%" class="w3-margin-bottom">
-                            </div>
-                            <div class="w3-half">
-                                <img src="/w3images/forest.jpg" style="width:100%" class="w3-margin-bottom">
-                            </div>
-                            <div class="w3-half">
-                                <img src="/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
-                            </div>
-                            <div class="w3-half">
+                            <p>Avaliaçao Projeto de Metodologias Ageis</p>
+                            <!--   <div class="w3-half">
                                 <img src="/w3images/fjords.jpg" style="width:100%" class="w3-margin-bottom">
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -168,9 +189,9 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
                 <div class="w3-col m12">
                     <div class="w3-card-2 w3-round w3-white">
                         <div class="w3-container w3-padding">
-                            <h6 class="w3-opacity">Social Media template by w3.css</h6>
-                            <p contenteditable="true" class="w3-border w3-padding">Status: Feeling Blue</p>
-                            <button type="button" class="w3-button w3-theme"><i class="fa fa-pencil"></i>  Post</button>
+                            <h6 class="w3-opacity">Busque por Projetos</h6>
+                            <p contenteditable="true" class="w3-border w3-padding">Pesquise aqui</p>
+                            <button type="button" class="w3-button w3-theme"><i class="fa fa-search"></i>  Buscar</button>
                         </div>
                     </div>
                 </div>
@@ -220,8 +241,10 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
         </div>
 
         <!-- Right Column -->
+
         <div class="w3-col m2">
-            <div class="w3-card-2 w3-round w3-white w3-center">
+
+          <!--  <div class="w3-card-2 w3-round w3-white w3-center">
                 <div class="w3-container">
                     <p>Upcoming Events:</p>
                     <img src="/w3images/forest.jpg" alt="Forest" style="width:100%;">
@@ -247,7 +270,7 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
                     </div>
                 </div>
             </div>
-            <br>
+            <br> -->
 
             <div class="w3-card-2 w3-round w3-white w3-padding-16 w3-center">
                 <p>ADS</p>
@@ -255,7 +278,7 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
             <br>
 
             <div class="w3-card-2 w3-round w3-white w3-padding-32 w3-center">
-                <p><i class="fa fa-bug w3-xxlarge"></i></p>
+                <p><i class="fa fa-bug w3-xlarge"></i></p>
             </div>
 
             <!-- End Right Column -->
