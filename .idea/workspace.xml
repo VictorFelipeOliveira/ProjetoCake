@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b46e630d-8111-46f2-a6fd-106f6cbf731a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diagramas/diagrama.mwb" afterPath="$PROJECT_DIR$/diagramas/diagrama.mwb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diagramas/diagrama.mwb.bak" afterPath="$PROJECT_DIR$/diagramas/diagrama.mwb.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/ScriptBD.sql" afterPath="$PROJECT_DIR$/scripts/ScriptBD.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/InstitutionsController.php" afterPath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/InstitutionsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/UsersController.php" afterPath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/UsersController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Entity/Institution.php" afterPath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Entity/Institution.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/InstitutionsTable.php" afterPath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/InstitutionsTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/UsersTable.php" afterPath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/UsersTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/home.ctp" afterPath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/home.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/edit.ctp" afterPath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/index.ctp" afterPath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/view.ctp" afterPath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/view.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/add.ctp" afterPath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/edit.ctp" afterPath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/css/AdminLTE.min.css" afterPath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/css/AdminLTE.min.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,28 +25,8 @@
       <file leaf-file-name="add.ctp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/add.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersTable.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/UsersTable.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/AppController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="60" column="34" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="34" />
+            <state relative-caret-position="-990">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -63,8 +35,18 @@
       <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
+            <state relative-caret-position="540">
               <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersTable.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/UsersTable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2628">
+              <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,12 +62,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Entity/User.php">
+      <file leaf-file-name="starter.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/starter.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-107">
-              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/view.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminLTE.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/webroot/css/AdminLTE.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-268">
+              <caret line="669" column="1" lean-forward="true" selection-start-line="669" selection-start-column="1" selection-end-line="669" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/login.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="70" column="109" lean-forward="false" selection-start-line="70" selection-start-column="101" selection-end-line="70" selection-end-column="109" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.ctp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/home.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4402">
+              <caret line="245" column="0" lean-forward="true" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+              <folding>
+                <element signature="e#7#592#0#PHP" expanded="true" />
+                <element signature="e#593#614#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,6 +130,8 @@
       <find>buscar</find>
       <find>hori</find>
       <find>messages</find>
+      <find>fa</find>
+      <find>bread</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,20 +163,21 @@
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Institutions/add.ctp" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Institutions/index.ctp" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/index.ctp" />
-        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/edit.ctp" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Institutions/view.ctp" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Institutions/edit.ctp" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Element/aside/sidebar-menu.ctp" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/edit.ctp" />
-        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/view.ctp" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/index.ctp" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/home.ctp" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/InstitutionsController.php" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/UsersTable.php" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/UsersController.php" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Entity/Institution.php" />
-        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/add.ctp" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/InstitutionsTable.php" />
+        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/add.ctp" />
+        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/view.ctp" />
+        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/css/AdminLTE.min.css" />
+        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/edit.ctp" />
       </list>
     </option>
   </component>
@@ -266,6 +294,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetoCake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetoCake" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sistemaCakeSIGEP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -336,33 +386,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
+              <option name="myItemId" value="Template" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Table" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetoCake" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetoCake" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sistemaCakeSIGEP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
+              <option name="myItemId" value="Pages" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -495,12 +523,12 @@
       <workItem from="1501982137872" duration="17656000" />
       <workItem from="1502026283244" duration="13764000" />
       <workItem from="1502045814723" duration="23856000" />
-      <workItem from="1502105769337" duration="15270000" />
+      <workItem from="1502105769337" duration="19885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70573000" />
+    <option name="totallyTimeSpent" value="75188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
@@ -555,15 +583,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Admin/Users/index.ctp" />
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/webroot/css/AdminLTE.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2504">
-          <caret line="1695" column="9" lean-forward="false" selection-start-line="1695" selection-start-column="1" selection-end-line="1695" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/webroot/css/cake.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -745,37 +764,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/home.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="245" column="12" lean-forward="false" selection-start-line="245" selection-start-column="12" selection-end-line="245" selection-end-column="12" />
-          <folding>
-            <element signature="e#7#592#0#PHP" expanded="true" />
-            <element signature="e#593#614#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/login.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="89" column="38" lean-forward="true" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/edit.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="49" column="24" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="49" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3222">
-          <caret line="182" column="158" lean-forward="false" selection-start-line="182" selection-start-column="158" selection-end-line="182" selection-end-column="158" />
           <folding />
         </state>
       </provider>
@@ -812,50 +804,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-107">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/ErrorController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Entity/Institution.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/edit.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2646">
-          <caret line="147" column="16" lean-forward="false" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -886,19 +838,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/UsersTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
+        <state relative-caret-position="2628">
           <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/AppController.php">
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/starter.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="60" column="34" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Entity/Institution.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/edit.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/webroot/css/AdminLTE.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-268">
+          <caret line="669" column="1" lean-forward="true" selection-start-line="669" selection-start-column="1" selection-end-line="669" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/login.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="70" column="109" lean-forward="false" selection-start-line="70" selection-start-column="101" selection-end-line="70" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/home.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4402">
+          <caret line="245" column="0" lean-forward="true" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#592#0#PHP" expanded="true" />
+            <element signature="e#593#614#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

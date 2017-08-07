@@ -4,7 +4,9 @@
   </h1>
   <ol class="breadcrumb">
     <li>
-    <?= $this->Html->link('<i class="fa fa-dashboard"></i> ' . __('Tela Inicial'), ['action' => 'index'], ['escape' => false])?>
+
+    <?= $this->Html->link('<i class="fa fa-home"></i> ' . __('Tela Inicial'), ['action' => 'index'], ['escape' => false] )?>
+
     </li>
   </ol>
 </section>
