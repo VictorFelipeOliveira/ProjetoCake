@@ -16,11 +16,7 @@ class InstitutionsControllerTest extends IntegrationTestCase
      * @var array
      */
     public $fixtures = [
-        'app.institutions',
-        'app.users',
-        'app.roles',
-        'app.users_has_groups',
-        'app.users_has_projects'
+        'app.institutions'
     ];
 
     /**

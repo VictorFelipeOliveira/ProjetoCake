@@ -16,8 +16,6 @@ use Cake\ORM\Entity;
  * @property string $complemento
  * @property \Cake\I18n\FrozenTime $created
  * @property \Cake\I18n\FrozenTime $modified
- *
- * @property \App\Model\Entity\User[] $users
  */
 class Institution extends Entity
 {
@@ -35,14 +33,4 @@ class Institution extends Entity
         '*' => true,
         'id' => false
     ];
-
-
-    public function return_institutions()
-    {
-
-        $this->order_by("nome", "asc");
-        $query = $this->get("institutions");
-
-        return $query;
-    }
 }

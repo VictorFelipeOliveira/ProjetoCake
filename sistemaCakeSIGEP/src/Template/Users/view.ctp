@@ -1,7 +1,7 @@
 <section class="content-header">
     <h3>
         <ol class="breadcrumb">
-            <h3 style="float: left; margin-top: 5px;">Detalhes do usuário</h3>
+            <h3 class= "fa fa-info" style="float: left; margin-top: 5px;"> Detalhes do usuário</h3>
             <h4 style="text-align: right; float: ">
                 <li>
                     <?= $this->Html->link('<i class="fa fa-home"></i> ' . __('Voltar'), ['action' => 'index'], ['escape' => false]) ?>

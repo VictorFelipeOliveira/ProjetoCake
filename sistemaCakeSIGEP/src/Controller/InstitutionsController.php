@@ -36,7 +36,7 @@ class InstitutionsController extends AppController
     public function view($id = null)
     {
         $institution = $this->Institutions->get($id, [
-            'contain' => ['Users']
+            'contain' => []
         ]);
 
         $this->set('institution', $institution);
@@ -107,6 +107,4 @@ class InstitutionsController extends AppController
         }
         return $this->redirect(['action' => 'index']);
     }
-
-
 }

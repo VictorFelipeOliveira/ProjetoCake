@@ -5,11 +5,9 @@ use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
-use Cake\ORM\TableRegistry;
+
 /**
  * Institutions Model
- *
- * @property \App\Model\Table\UsersTable|\Cake\ORM\Association\HasMany $Users
  *
  * @method \App\Model\Entity\Institution get($primaryKey, $options = [])
  * @method \App\Model\Entity\Institution newEntity($data = null, array $options = [])
@@ -39,10 +37,6 @@ class InstitutionsTable extends Table
         $this->setPrimaryKey('id');
 
         $this->addBehavior('Timestamp');
-
-        $this->hasMany('Users', [
-            'foreignKey' => 'institution_id'
-        ]);
     }
 
     /**
@@ -70,17 +64,20 @@ class InstitutionsTable extends Table
             ->notEmpty('rua');
 
         $validator
-            ->allowEmpty('numero');
+            ->requirePresence('numero', 'create')
+            ->notEmpty('numero');
 
         $validator
-            ->allowEmpty('bairro');
+            ->requirePresence('bairro', 'create')
+            ->notEmpty('bairro');
 
         $validator
             ->requirePresence('cidade', 'create')
             ->notEmpty('cidade');
 
         $validator
-            ->allowEmpty('complemento');
+            ->requirePresence('complemento', 'create')
+            ->notEmpty('complemento');
 
         return $validator;
     }
