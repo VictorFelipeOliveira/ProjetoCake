@@ -9,8 +9,6 @@ use Cake\Validation\Validator;
 /**
  * Roles Model
  *
- * @property \App\Model\Table\UsersTable|\Cake\ORM\Association\HasMany $Users
- *
  * @method \App\Model\Entity\Role get($primaryKey, $options = [])
  * @method \App\Model\Entity\Role newEntity($data = null, array $options = [])
  * @method \App\Model\Entity\Role[] newEntities(array $data, array $options = [])
@@ -39,10 +37,6 @@ class RolesTable extends Table
         $this->setPrimaryKey('id');
 
         $this->addBehavior('Timestamp');
-
-        $this->hasMany('Users', [
-            'foreignKey' => 'role_id'
-        ]);
     }
 
     /**

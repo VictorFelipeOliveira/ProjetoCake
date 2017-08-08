@@ -7,8 +7,8 @@ use Cake\ORM\Entity;
  * Role Entity
  *
  * @property int $id
- * @property string $created
- * @property string $modified
+ * @property \Cake\I18n\FrozenTime $created
+ * @property \Cake\I18n\FrozenTime $modified
  * @property string $role
  *
  * @property \App\Model\Entity\User[] $users

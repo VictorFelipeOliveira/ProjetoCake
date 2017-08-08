@@ -1,29 +1,17 @@
 <!-- Content Header (Page header) -->
 <section class="content-header">
-  <h1>
+  <h3>
     Funcoes e Papeis
-    <div class="pull-right"><?= $this->Html->link(__('Nova Funcao'), ['action' => 'add'], ['class'=>'btn btn-success btn-sm']) ?></div>
-  </h1>
+    <div class="pull-right"><?= $this->Html->link(__('Nova Funcao'), ['action' => 'add'], ['class'=>'btn btn-success btn-lg fa fa-user-plus']) ?></div>
+  </h3>
 </section>
+<br>
 
 <!-- Main content -->
 <section class="content">
   <div class="row">
     <div class="col-xs-12">
       <div class="box">
-        <div class="box-header">
-          <h3 class="box-title"><?= __('Funcoes Cadastradas') ?> </h3>
-          <div class="box-tools">
-            <form action="<?php echo $this->Url->build(); ?>" method="POST">
-              <div class="input-group input-group-sm"  style="width: 180px;">
-                <input type="text" name="search" class="form-control" placeholder="<?= __('Buscar por funcao') ?>">
-                <span class="input-group-btn">
-                <button class="btn btn-info btn-flat" type="submit"><?= __('Pesquisar') ?></button>
-                </span>
-              </div>
-            </form>
-          </div>
-        </div>
         <!-- /.box-header -->
         <div class="box-body table-responsive no-padding">
           <table class="table table-hover">
@@ -40,9 +28,9 @@
                 <td><?= $this->Number->format($role->id) ?></td>
                 <td><?= h($role->role) ?></td>
                 <td class="actions" style="white-space:nowrap">
-                  <?= $this->Html->link(__('Ver'), ['action' => 'view', $role->id], ['class'=>'btn btn-info btn-sm']) ?>
-                  <?= $this->Html->link(__('Editar'), ['action' => 'edit', $role->id], ['class'=>'btn btn-warning btn-sm']) ?>
-                  <?= $this->Form->postLink(__('Excluir'), ['action' => 'delete', $role->id], ['confirm' => __('Confirm to delete this entry?'), 'class'=>'btn btn-danger btn-sm']) ?>
+                  <?= $this->Html->link(__('Ver'), ['action' => 'view', $role->id], ['class'=>'btn btn-info btn-sm fa fa-eye']) ?>
+                  <?= $this->Html->link(__('Editar'), ['action' => 'edit', $role->id], ['class'=>'btn btn-warning btn-sm fa fa-pencil']) ?>
+                  <?= $this->Form->postLink(__('Excluir'), ['action' => 'delete', $role->id], ['confirm' => __('Confirm to delete this entry?'), 'class'=>'btn btn-danger btn-sm fa fa-trash']) ?>
                 </td>
               </tr>
             <?php endforeach; ?>
