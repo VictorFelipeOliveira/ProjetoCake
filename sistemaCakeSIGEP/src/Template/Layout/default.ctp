@@ -41,9 +41,14 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
         <style>
             html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
         </style>
-        
+
         <?= $this->Html->css('../bootstrap/css/bootstrap.css') ?>
+        <?= $this->Html->css('../bootstrap/css/bootstrap.min.css') ?>
+        <?= $this->Html->script(['bootstrap.min.css', 'jquery-3.2.1.min.css']) ?>
         <?= $this->Html->css('form.css') ?>
+        
+        <?= $this->Html->css('base.css') ?>
+        <?= $this->Html->css('cake.css') ?>
 
         <?= $this->fetch('meta') ?>
         <?= $this->fetch('css') ?>
@@ -113,7 +118,7 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
 
                              <!--   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="Minha conta"><i class="fa fa-user"></i></a>
                 <?= $this->Html->link('<i class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white fa fa-home">' . __('Logout') . '</i>', ['action' => 'logout'], ['escape' => false]) ?>
-            -->
+                -->
 
             </div>
         </div>
@@ -201,11 +206,10 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
 
                     <!-- End Left Column -->
                 </div>
-
-                <!-- Middle Column -->
                 <?= $this->Flash->render() ?>
+                
+                <!-- Middle Column -->
                 <div class="w3-col m9">
-
                     <div class="w3-row-padding">
                         <div class="w3-col m12">
                             <div class="w3-card-2 w3-round w3-white">
@@ -219,9 +223,6 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
                 </div>
 
                 <!-- Right Column -->
-
-              
-
                 <!-- End Grid -->
             </div>
 
@@ -233,7 +234,7 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
             <h5>Sistema de Gerenciamento de Projetos - SIGEP</h5>
             <p>Todos os direitos reservados a Pombos ltda.</p>
         </footer>
-        
+
         <?= $this->Html->script('../bootstrap/js/bootstrap.js') ?>
         <script>
             // Accordion
