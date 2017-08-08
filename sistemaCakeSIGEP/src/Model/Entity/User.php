@@ -1,13 +1,14 @@
 <?php
 namespace App\Model\Entity;
 
+use Cake\Auth\DefaultPasswordHasher;
 use Cake\ORM\Entity;
 
 /**
  * User Entity
  *
  * @property int $id
- * @property string $login
+ * @property string $username
  * @property string $password
  * @property string $nome
  * @property string $cpf
@@ -25,8 +26,6 @@ use Cake\ORM\Entity;
  *
  * @property \App\Model\Entity\Institution $institution
  * @property \App\Model\Entity\Role $role
- * @property \App\Model\Entity\UsersHasGroup[] $users_has_groups
- * @property \App\Model\Entity\UsersHasProject[] $users_has_projects
  */
 class User extends Entity
 {
@@ -53,4 +52,10 @@ class User extends Entity
     protected $_hidden = [
         'password'
     ];
+
+    protected function _setPassword($password){
+        if(strlen($password)>0){
+            return (new DefaultPasswordHasher)->hash($password);
+        }
+    }
 }

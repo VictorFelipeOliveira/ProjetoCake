@@ -182,11 +182,11 @@
                                     </td>
                                     
                                                                         <td class="actions">
-                                    <?= $this->Html->link(__('Ver'), ['controller' => 'Users', 'action' => 'view', $users->id], ['class'=>'btn btn-info btn-xm']) ?>
+                                    <?= $this->Html->link(__('Ver'), ['controller' => 'Users', 'action' => 'view', $users->id], ['class'=>'btn btn-info btn-sm']) ?>
 
-                                    <?= $this->Html->link(__('Editar'), ['controller' => 'Users', 'action' => 'edit', $users->id], ['class'=>'btn btn-warning btn-xs']) ?>
+                                    <?= $this->Html->link(__('Editar'), ['controller' => 'Users', 'action' => 'edit', $users->id], ['class'=>'btn btn-warning btn-sm']) ?>
 
-                                    <?= $this->Form->postLink(__('Excluir'), ['controller' => 'Users', 'action' => 'delete', $users->id], ['confirm' => __('Are you sure you want to delete # {0}?', $users->id), 'class'=>'btn btn-danger btn-xs']) ?>
+                                    <?= $this->Form->postLink(__('Excluir'), ['controller' => 'Users', 'action' => 'delete', $users->id], ['confirm' => __('Are you sure you want to delete # {0}?', $users->id), 'class'=>'btn btn-danger btn-sm']) ?>
                                     </td>
                                 </tr>
                             <?php endforeach; ?>

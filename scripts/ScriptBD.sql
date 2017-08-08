@@ -35,8 +35,8 @@
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`roles` (
   `id` INT AUTO_INCREMENT,
-  `created` VARCHAR(45) NULL,
-  `modified` VARCHAR(45) NULL,
+  `created` DATETIME NULL,
+  `modified` DATETIME NULL,
   `role` VARCHAR(45) NULL,
   PRIMARY KEY (`id`));
 
@@ -88,8 +88,8 @@ CREATE TABLE IF NOT EXISTS `mydb`.`projects` (
 -- Table `mydb`.`groups`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`groups` (
-  `id` INT NOT NULL,
-  `nome` VARCHAR(80) NULL,
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(80) NOT NULL,
   `descricao` VARCHAR(250) NULL,
   `created` DATETIME NULL,
   `modified` DATETIME NULL,
@@ -101,17 +101,17 @@ CREATE TABLE IF NOT EXISTS `mydb`.`groups` (
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`evaluations` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `date` VARCHAR(45) NOT NULL,
+  `date` DATE NOT NULL,
   `created` DATETIME NULL,
   `modified` DATETIME NULL,
-  `group_id` INT NOT NULL,
-  `project_id` INT NOT NULL,
+  `groups_id` INT NOT NULL,
+  `projects_id` INT NOT NULL,
   PRIMARY KEY (`id`),
-    FOREIGN KEY (`group_id`)
+    FOREIGN KEY (`groups_id`)
     REFERENCES `mydb`.`groups` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
-    FOREIGN KEY (`project_id`)
+    FOREIGN KEY (`projects_id`)
     REFERENCES `mydb`.`projects` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
@@ -125,15 +125,12 @@ CREATE TABLE IF NOT EXISTS `mydb`.`criterions` (
   `nome` VARCHAR(45) NOT NULL,
   `created` DATETIME NULL,
   `modified` DATETIME NULL,
-  `evaluation_id` INT NOT NULL,
-  PRIMARY KEY (`id`, `evaluation_id`),
-  INDEX `fk_criterios_avaliacoes1_idx` (`evaluation_id` ASC),
-  CONSTRAINT `fk_criterios_avaliacoes1`
-    FOREIGN KEY (`evaluation_id`)
+  `evaluations_id` INT NOT NULL,
+  PRIMARY KEY (`id`, `evaluations_id`),
+    FOREIGN KEY (`evaluations_id`)
     REFERENCES `mydb`.`evaluations` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
-ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
@@ -143,35 +140,29 @@ CREATE TABLE IF NOT EXISTS `mydb`.`subcriterions` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `nota` FLOAT NOT NULL,
   `nome` VARCHAR(45) NOT NULL,
-  `descricao` VARCHAR(250) NOT NULL,
+  `descricao` VARCHAR(250) NULL,
   `created` DATETIME NULL,
   `modified` DATETIME NULL,
-  `criterion_id` INT NOT NULL,
-  PRIMARY KEY (`id`, `criterion_id`),
-  INDEX `fk_subcriterios_criterios1_idx` (`criterion_id` ASC),
-  CONSTRAINT `fk_subcriterios_criterios1`
-    FOREIGN KEY (`criterion_id`)
+  `criterions_id` INT NOT NULL,
+  PRIMARY KEY (`id`, `criterions_id`),
+    FOREIGN KEY (`criterions_id`)
     REFERENCES `mydb`.`criterions` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
-ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
 -- Table `mydb`.`users_has_projects`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`users_has_projects` (
-  `user_id` INT UNSIGNED NOT NULL,
-  `project_id` INT NOT NULL,
+  `users_id` INT UNSIGNED NOT NULL,
+  `projects_id` INT NOT NULL,
   PRIMARY KEY (`user_id`, `project_id`),
-  INDEX `fk_usuarios_has_projetos_projetos1_idx` (`project_id` ASC),
-  INDEX `fk_usuarios_has_projetos_usuarios1_idx` (`user_id` ASC),
-  CONSTRAINT `fk_usuarios_has_projetos_usuarios1`
     FOREIGN KEY (`user_id`)
     REFERENCES `mydb`.`users` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
-  CONSTRAINT `fk_usuarios_has_projetos_projetos1`
+
     FOREIGN KEY (`project_id`)
     REFERENCES `mydb`.`projects` (`id`)
     ON DELETE NO ACTION

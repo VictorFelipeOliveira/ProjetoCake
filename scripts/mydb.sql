@@ -74,7 +74,7 @@ INSERT INTO `roles` (`id`, `created`, `modified`, `role`) VALUES
 
 CREATE TABLE `users` (
   `id` int(10) UNSIGNED NOT NULL,
-  `login` varchar(80) NOT NULL,
+  `username` varchar(80) NOT NULL,
   `password` varchar(80) NOT NULL,
   `nome` varchar(80) NOT NULL,
   `cpf` char(11) NOT NULL,

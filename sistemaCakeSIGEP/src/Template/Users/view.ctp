@@ -19,9 +19,9 @@
                 <!-- /.box-header -->
                 <div class="box-body">
                     <dl class="dl-horizontal">
-                        <dt><?= __('Login') ?></dt>
+                        <dt><?= __('Username') ?></dt>
                         <dd>
-                            <?= h($user->login) ?>
+                            <?= h($user->username) ?>
                         </dd>
                         <dt><?= __('Nome') ?></dt>
                         <dd>

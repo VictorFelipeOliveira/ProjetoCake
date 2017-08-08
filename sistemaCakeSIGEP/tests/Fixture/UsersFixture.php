@@ -18,7 +18,7 @@ class UsersFixture extends TestFixture
     // @codingStandardsIgnoreStart
     public $fields = [
         'id' => ['type' => 'integer', 'length' => 10, 'unsigned' => true, 'null' => false, 'default' => null, 'comment' => '', 'autoIncrement' => true, 'precision' => null],
-        'login' => ['type' => 'string', 'length' => 80, 'null' => false, 'default' => null, 'collate' => 'latin1_swedish_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
+        'username' => ['type' => 'string', 'length' => 80, 'null' => false, 'default' => null, 'collate' => 'latin1_swedish_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
         'password' => ['type' => 'string', 'length' => 80, 'null' => false, 'default' => null, 'collate' => 'latin1_swedish_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
         'nome' => ['type' => 'string', 'length' => 80, 'null' => false, 'default' => null, 'collate' => 'latin1_swedish_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
         'cpf' => ['type' => 'string', 'fixed' => true, 'length' => 11, 'null' => false, 'default' => null, 'collate' => 'latin1_swedish_ci', 'comment' => '', 'precision' => null],
@@ -57,7 +57,7 @@ class UsersFixture extends TestFixture
     public $records = [
         [
             'id' => 1,
-            'login' => 'Lorem ipsum dolor sit amet',
+            'username' => 'Lorem ipsum dolor sit amet',
             'password' => 'Lorem ipsum dolor sit amet',
             'nome' => 'Lorem ipsum dolor sit amet',
             'cpf' => 'Lorem ips',
@@ -68,8 +68,8 @@ class UsersFixture extends TestFixture
             'bairro' => 'Lorem ipsum dolor sit amet',
             'cidade' => 'Lorem ipsum dolor sit amet',
             'complemento' => 'Lorem ipsum dolor sit amet',
-            'created' => '2017-08-07 21:07:59',
-            'modified' => '2017-08-07 21:07:59',
+            'created' => '2017-08-08 13:15:48',
+            'modified' => '2017-08-08 13:15:48',
             'institutions_id' => 1,
             'roles_id' => 1
         ],

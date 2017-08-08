@@ -18,7 +18,7 @@
             <thead>
               <tr>
                 <th><?= $this->Paginator->sort('id',['label'=>'ID']) ?></th>
-                <th><?= $this->Paginator->sort('login',['label'=>'LOGIN']) ?></th>
+                <th><?= $this->Paginator->sort('username',['label'=>'USERNAME']) ?></th>
                 <th><?= $this->Paginator->sort('nome',['label'=>'NOME']) ?></th>
                 <th><?= $this->Paginator->sort('cpf',['label'=>'CPF']) ?></th>
                 <th><?= $this->Paginator->sort('email',['label'=>'EMAIL']) ?></th>
@@ -30,7 +30,7 @@
             <?php foreach ($users as $user): ?>
               <tr>
                 <td><?= $this->Number->format($user->id) ?></td>
-                <td><?= h($user->login) ?></td>
+                <td><?= h($user->username) ?></td>
                 <td><?= h($user->nome) ?></td>
                 <td><?= h($user->cpf) ?></td>
                 <td><?= h($user->email) ?></td>
