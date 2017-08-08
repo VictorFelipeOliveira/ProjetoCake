@@ -7,7 +7,7 @@ use Cake\ORM\Entity;
  * User Entity
  *
  * @property int $id
- * @property string $username
+ * @property string $login
  * @property string $password
  * @property string $nome
  * @property string $cpf
@@ -20,8 +20,8 @@ use Cake\ORM\Entity;
  * @property string $complemento
  * @property \Cake\I18n\FrozenTime $created
  * @property \Cake\I18n\FrozenTime $modified
- * @property int $institution_id
- * @property int $role_id
+ * @property int $institutions_id
+ * @property int $roles_id
  *
  * @property \App\Model\Entity\Institution $institution
  * @property \App\Model\Entity\Role $role

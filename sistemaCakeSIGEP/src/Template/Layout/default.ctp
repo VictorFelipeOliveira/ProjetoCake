@@ -1,111 +1,252 @@
-<?php use Cake\Core\Configure; ?>
+<?php
+
+/**
+ * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
+ * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
+ *
+ * Licensed under The MIT License
+ * For full copyright and license information, please see the LICENSE.txt
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
+ * @link          http://cakephp.org CakePHP(tm) Project
+ * @since         0.10.0
+ * @license       http://www.opensource.org/licenses/mit-license.php MIT License
+ */
+use Cake\Cache\Cache;
+use Cake\Core\Configure;
+use Cake\Core\Plugin;
+use Cake\Datasource\ConnectionManager;
+use Cake\Error\Debugger;
+use Cake\Network\Exception\NotFoundException;
+
+$this->layout = false;
+
+if (!Configure::read('debug')):
+    throw new NotFoundException('Please replace src/Template/Pages/home.ctp with your own version.');
+endif;
+
+$cakeDescription = 'CakePHP: the rapid development PHP framework';
+?>
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title><?php echo Configure::read('Theme.title'); ?></title>
-    <!-- Tell the browser to be responsive to screen width -->
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <head>
+        <title>SIGEP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
+        </style>
+        
+        <?= $this->Html->css('../bootstrap/css/bootstrap.css') ?>
+        <?= $this->Html->css('form.css') ?>
+        
+        <?= $this->fetch('meta') ?>
+        <?= $this->fetch('css') ?>
+        <?= $this->fetch('script') ?>
+    </head>
+    <body class="w3-theme-l5">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Ionicons -->
-    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    
-    <?php echo $this->Html->css('AdminLTE.skins/skin-'. Configure::read('Theme.skin') .'.min'); ?>
+        <!-- Navbar -->
+        <div class="w3-top">
+            <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+                <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
 
-    <?= $this->Html->css('/../bootstrap/css/bootstrap') ?>
-    <?= $this->Html->css('AdminLTE.min') ?>
-    <?= $this->Html->css('skins/skin-black.min') ?>
-    <?= $this->Html->css('skins/skin-black-light.min') ?>
-    <?= $this->Html->css('skins/skin-blue-light.min') ?>
-    <?= $this->Html->css('skins/skin-blue') ?>
-    <?= $this->Html->css('skins/skin-blue.min') ?>
-    <?= $this->Html->css('skins/skin-green-light.min') ?>
-    <?= $this->Html->css('skins/skin-green.min') ?>
-    <?= $this->Html->css('skins/skin-purple-light.min') ?>
-    <?= $this->Html->css('skins/skin-purple.min') ?>
-    <?= $this->Html->css('skins/skin-red.min') ?>
-    <?= $this->Html->css('skins/skin-yellow-light.min') ?>
-    <?= $this->Html->css('skins/skin-yellow.min') ?>
-    <?= $this->Html->css('AdminLTE.skins/skin-'. Configure::read('Theme.skin') .'.min') ?>
+                <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"></i>SIGEP</a>
+                <div class="w3-dropdown-hover w3-hide-small">
+                    <button class="w3-button w3-padding-large"  value="Projetos"><i class="fa fa-pencil w3-margin-right"></i>Projetos</button>
+                    <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
+                        <a href="#" class="w3-bar-item w3-button">Novo Projeto</a>
+                        <a href="#" class="w3-bar-item w3-button">Projetos Cadastrados</a>
+                        <a href="#" class="w3-bar-item w3-button">Avaliar Projeto</a>
+                    </div>
+                </div>
 
-    <?= $this->fetch('meta') ?>
-    <?= $this->fetch('css') ?>
-    <?= $this->fetch('script') ?>
+                <div class="w3-dropdown-hover w3-hide-small">
+                    <button class="w3-button w3-padding-large" value="Avaliacoes"><i class="fa fa-file w3-margin-right"></i>Avaliaçoes</button>
+                    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+                        <a href="#" class="w3-bar-item w3-button">Nova Avaliaçao</a>
+                        <a href="#" class="w3-bar-item w3-button">Avaliaçoes Realizadas</a>
+                    </div>
+                </div>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-</head>
-<body class="hold-transition skin-<?php echo Configure::read('Theme.skin'); ?> sidebar-mini">
-    <!-- Site wrapper -->
-    <div class="wrapper">
-        <header class="main-header">
-            <!-- Logo -->
-            <a href="<?php echo $this->Url->build('/'); ?>" class="logo">
-                <!-- mini logo for sidebar mini 50x50 pixels -->
-                <span class="logo-mini"><?php echo Configure::read('Theme.logo.mini'); ?></span>
-                <!-- logo for regular state and mobile devices -->
-                <span class="logo-lg"><?php echo Configure::read('Theme.logo.large'); ?></span>
-            </a>
-            <!-- Header Navbar: style can be found in header.less -->
-            <?php echo $this->element('nav-top') ?>
-        </header>
+                <div class="w3-dropdown-hover w3-hide-small">
+                    <button class="w3-button w3-padding-large" value="instituicoes"><i class="fa fa-home w3-margin-right"></i>Instituiçoes</button>
+                    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+                        <a href="#" class="w3-bar-item w3-button">Cadastradas</a>
+                    </div>
+                </div>
 
-        <!-- Left side column. contains the sidebar -->
-        <?php echo $this->element('aside-main-sidebar'); ?>
+                <div class="w3-dropdown-hover w3-hide-small">
+                    <button class="w3-button w3-padding-large" value="quesitos"><i class="fa fa-info w3-margin-right"></i>Quesitos Avaliados</button>
+                    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+                        <a href="#" class="w3-bar-item w3-button">Criterios</a>
+                        <a href="#" class="w3-bar-item w3-button">Subcriterios</a>
+                        <a href="#" class="w3-bar-item w3-button">Normas</a>
+                        <a href="#" class="w3-bar-item w3-button">Eventos</a>
+                    </div>
+                </div>
 
-        <!-- =============================================== -->
+                <div class="w3-dropdown-hover w3-hide-small">
+                    <button class="w3-button w3-padding-large" value="ajuda"><i class="fa fa-question w3-margin-right"></i>Ajuda</button>
+                    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+                        <a href="#" class="w3-bar-item w3-button">Como utilizar</a>
+                    </div>
+                </div>
+                <!--
+        
+                <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="fa fa-globe"></i></a>
+                <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-user"></i></a>
+                <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a> -->
 
-        <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper">
-
-            <?php echo $this->Flash->render(); ?>
-            <?php echo $this->Flash->render('auth'); ?>
-            <?php echo $this->fetch('content'); ?>
-
+                <a href="<?= __('Edit') ?>" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="Minha conta"><i class="fa fa-user"></i></a>
+            </div>
         </div>
-        <!-- /.content-wrapper -->
 
-        <?php echo $this->element('footer'); ?>
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">My profile</a>
+        </div>
 
-        <!-- Control Sidebar -->
-        <?php echo $this->element('aside-control-sidebar'); ?>
+        <!-- Page Container -->
+        <div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">
+            <!-- The Grid -->
+            <div class="w3-row">
+                <!-- Left Column -->
+                <div class="w3-col m3">
+                    <!-- Profile -->
+                    <div class="w3-card-2 w3-round w3-white">
+                        <div class="w3-container">
+                            <h4 class="w3-center">Meu Perfil</h4>
+                            <p class="w3-center"><img src="/w3images/avatar3.png" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
+                            <hr>
+                            <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Designer, UI</p>
+                            <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i> London, UK</p>
+                            <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> April 1, 1988</p>
+                        </div>
+                    </div>
+                    <br>
 
-        <!-- /.control-sidebar -->
-<!-- Add the sidebar's background. This div must be placed
-    immediately after the control sidebar -->
-    <div class="control-sidebar-bg"></div>
-</div>
+                    <!-- Accordion -->
+                    <div class="w3-card-2 w3-round">
+                        <div class="w3-white">
+                            <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i> Meus grupos</button>
+                            <div id="Demo1" class="w3-hide w3-container">
+                                <p>Metodologias Ageis</p>
+                            </div>
+                            <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-pencil fa-fw w3-margin-right"></i> Meus Projetos</button>
+                            <div id="Demo2" class="w3-hide w3-container">
+                                <p>Projeto TCC 1</p>
+                            </div>
+                            <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-file fa-fw w3-margin-right"></i> Minhas Avaliaçoes</button>
+                            <div id="Demo3" class="w3-hide w3-container">
+                                <div class="w3-row-padding">
+                                    <p>Avaliaçao Projeto de Metodologias Ageis</p>
+                                    <!--   <div class="w3-half">
+                                        <img src="/w3images/fjords.jpg" style="width:100%" class="w3-margin-bottom">
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
 
-<?= $this->Html->script('../bootstrap/js/bootstrap') ?>;
-<?= $this->Html->script('../plugins/jQuery/jQuery-2.1.4.min') ?>;
-<?= $this->Html->script('../plugins/slimScroll/jquery.slimscroll.min') ?>;
-<?= $this->Html->script('../plugins/fastclick/fastclick') ?>;
-<?= $this->Html->script('AdminLTE.min') ?>;
+                    <!-- Interests -->
+                    <div class="w3-card-2 w3-round w3-white w3-hide-small">
+                        <div class="w3-container">
+                            <p>Areas de Interesse</p>
+                            <p>
+                                <span class="w3-tag w3-small w3-theme-d5">News</span>
+                                <span class="w3-tag w3-small w3-theme-d4">W3Schools</span>
+                                <span class="w3-tag w3-small w3-theme-d3">Labels</span>
+                                <span class="w3-tag w3-small w3-theme-d2">Games</span>
+                                <span class="w3-tag w3-small w3-theme-d1">Friends</span>
+                                <span class="w3-tag w3-small w3-theme">Games</span>
+                                <span class="w3-tag w3-small w3-theme-l1">Friends</span>
+                                <span class="w3-tag w3-small w3-theme-l2">Food</span>
+                                <span class="w3-tag w3-small w3-theme-l3">Design</span>
+                                <span class="w3-tag w3-small w3-theme-l4">Art</span>
+                                <span class="w3-tag w3-small w3-theme-l5">Photos</span>
+                            </p>
+                        </div>
+                    </div>
+                    <br>
 
-<!-- AdminLTE for demo purposes -->
-<?php echo $this->fetch('script'); ?>
-<?php echo $this->fetch('scriptBottom'); ?>
+                    <!-- Alert Box -->
+                    <div class="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small">
+                        <span onclick="this.parentElement.style.display = 'none'" class="w3-button w3-theme-l3 w3-display-topright">
+                            <i class="fa fa-remove"></i>
+                        </span>
+                        <p><strong>Hey!</strong></p>
+                        <p>People are looking at your profile. Find out who.</p>
+                    </div>
 
-<script type="text/javascript">
-    $(document).ready(function(){
-        $(".navbar .menu").slimscroll({
-            height: "200px",
-            alwaysVisible: false,
-            size: "3px"
-        }).css("width", "100%");
+                    <!-- End Left Column -->
+                </div>
 
-        var a = $('a[href="<?php echo $this->request->webroot . $this->request->url ?>"]');
-        if (!a.parent().hasClass('treeview') && !a.parent().parent().hasClass('pagination')) {
-            a.parent().addClass('active').parents('.treeview').addClass('active');
-        }
-    });
-</script>
-</body>
+                <!-- Middle Column -->
+                <div class="w3-col m9">
+
+                    <div class="w3-row-padding">
+                        <div class="w3-col m12">
+                            <div class="w3-card-2 w3-round w3-white">
+                                <div class="w3-container w3-padding">
+                                    <?= $this->fetch('content') ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Middle Column -->
+                </div>
+
+                <!-- Right Column -->
+
+              
+
+                <!-- End Grid -->
+            </div>
+
+            <!-- End Page Container -->
+        </div>
+        <br>
+
+        <footer class="w3-container w3-theme-d5">
+            <h5>Sistema de Gerenciamento de Projetos - SIGEP</h5>
+            <p>Todos os direitos reservados a Pombos ltda.</p>
+        </footer>
+        
+        <?= $this->Html->script('../bootstrap/js/bootstrap.js') ?>
+        <script>
+            // Accordion
+            function myFunction(id) {
+                var x = document.getElementById(id);
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                    x.previousElementSibling.className += " w3-theme-d1";
+                } else {
+                    x.className = x.className.replace("w3-show", "");
+                    x.previousElementSibling.className =
+                            x.previousElementSibling.className.replace(" w3-theme-d1", "");
+                }
+            }
+
+            // Used to toggle the menu on smaller screens when clicking on the menu button
+            function openNav() {
+                var x = document.getElementById("navDemo");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+        </script>
+
+    </body>
 </html>

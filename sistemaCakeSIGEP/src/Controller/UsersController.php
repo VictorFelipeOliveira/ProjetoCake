@@ -27,8 +27,6 @@ class UsersController extends AppController
 
         $this->set(compact('users'));
         $this->set('_serialize', ['users']);
-
-
     }
 
     /**
@@ -41,7 +39,7 @@ class UsersController extends AppController
     public function view($id = null)
     {
         $user = $this->Users->get($id, [
-            'contain' => ['Institutions', 'Roles', 'UsersHasGroups', 'UsersHasProjects']
+            'contain' => ['Institutions', 'Roles']
         ]);
 
         $this->set('user', $user);
@@ -115,21 +113,5 @@ class UsersController extends AppController
             $this->Flash->error(__('The {0} could not be deleted. Please, try again.', 'User'));
         }
         return $this->redirect(['action' => 'index']);
-    }
-
-    public function login(){
-        if($this->request->is('post')){
-            $user = $this->Auth->identify();
-            if($user){
-                $this->Auth->setUser($user);
-                return $this->redirect($this->Auth->redirectUrl('/'));
-            }
-
-            $this->Flash->error(__('Username ou senha invalidos, tente novamente'));
-        }
-    }
-
-    public function logout(){
-        return $this->redirect($this->Auth->logout());
     }
 }

@@ -1,154 +1,89 @@
 <section class="content-header">
-  <h1>
-   Usuarios
-  </h1>
-  <ol class="breadcrumb">
-    <li>
-    <?= $this->Html->link('<i class="fa fa-home"></i> '.__('Tela Inicial'), ['action' => 'index'], ['escape' => false]) ?>
-    </li>
-  </ol>
+    <h3 style="text-align: center;">
+        <ol class="breadcrumb">
+            Atualizar <?= __('usuário') ?>
+        </ol>
+    </h3>
 </section>
 
 <!-- Main content -->
 <section class="content">
-  <div class="row">
-    <!-- left column -->
-    <div class="col-md-12">
-      <!-- general form elements -->
-      <div class="box box-primary">
-        <div class="box-header with-border">
-          <h3 class="box-title"><?= __('Alteraçao de Usuario') ?></h3>
+    <div class="row">
+        <!-- left column -->
+        <div class="col-md-12">
+            <!-- general form elements -->
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h5 style="text-align: right" class="box-title"><?= __('Preencha os dados do formulario abaixo') ?></h5>
+                </div>
+                <!-- /.box-header -->
+                <!-- form start -->
+                <?= $this->Form->create($user, array('role' => 'form')) ?>
+                <div class="form-group">
+                    <?php
+                    echo $this->Form->input('login', ['label'=>'Login *','class' => 'form-control', 'placeholder' => 'Insira o seu login']);
+                    echo '<br>' . $this->Form->input('password', ['label'=>'Password *','class' => 'form-control', 'placeholder' => 'Insira o sua password']);
+                    echo '<br>' . $this->Form->input('nome', ['label'=>'Nome *','class' => 'form-control', 'placeholder' => 'Insira o seu nome']);
+                    echo '<br>' . $this->Form->input('cpf', ['label'=>'Cpf *','class' => 'form-control', 'placeholder' => 'Insira o seu cpf']);
+                    echo '<br>' . $this->Form->input('email', ['label'=>'Email *','class' => 'form-control', 'placeholder' => 'Insira o seu email']);
+                    echo '<br>' . $this->Form->input('telefone', ['class' => 'form-control', 'placeholder' => 'Insira o seu telefone']);
+                    ?>
+                    <br>
+                    <div class='row'>
+                        <div class="col-xs-6">
+                            <?php echo $this->Form->input('institutions_id', ['label'=>'Instituição *', 'class' => 'form-control', 'placeholder' => 'Insira o sua instituição']); ?>
+                        </div>  
+                        <div class="col-xs-6">
+                            <?php echo $this->Form->input('roles_id', ['label'=>'Função *', 'class' => 'form-control', 'placeholder' => 'Insira o sua função']); ?>
+                        </div>  
+                    </div>
+                    <br/>
+                    <fieldset class="scheduler-border">
+
+                        <legend class="scheduler-border">Endereço</legend>
+
+                        <div class='row'>
+                            <div class="col-xs-6">
+                                <?php echo $this->Form->input('cidade', ['label'=>'Cidade *','class' => 'form-control', 'placeholder' => 'Insira o sua cidade']); ?>
+                            </div>  
+                            <div class="col-xs-6">
+                                <?php echo $this->Form->input('complemento', ['label'=>'Complemento *', 'class' => 'form-control', 'placeholder' => 'Insira o complemento']); ?>
+                            </div>  
+                        </div>  
+                        </br>    
+                        <div class='row'>
+                            <div class="col-xs-4">
+                                <?php echo $this->Form->input('rua', ['label'=>'Rua *', 'class' => 'form-control', 'placeholder' => 'Insira a rua']); ?>
+                            </div>  
+                            <div class="col-xs-2">
+                                <?php echo $this->Form->input('numero', ['label'=>'Numero *', 'class' => 'form-control', 'placeholder' => 'Insira o numero']); ?>
+                            </div>  
+                            <div class="col-xs-6">
+                                <?php echo $this->Form->input('bairro', ['label'=>'Bairro *', 'class' => 'form-control', 'placeholder' => 'Insira o bairro']); ?>
+                            </div>  
+                        </div>  
+                        </br>    
+                    </fieldset>    
+
+
+                </div>
+                <!-- /.box-body -->
+                <div class="box-footer">
+                    
+                </div>
+                <ol class="breadcrumb">
+                    <div class='row'>
+                        <div class="col-xs-6">
+                            <?= $this->Html->link('<i class="fa fa-home btn btn-default btn-lg">' . __('Voltar').'</i>', ['action' => 'index'], ['escape' => false]) ?>
+                        </div>  
+                        <div class="col-xs-6 text-right">
+                            <?= $this->Form->button(__('Salvar'), ['class' => 'btn btn-info btn-lg glyphicon glyphicon-floppy-save']) ?>
+                        </div>  
+                    </div> 
+                </ol>
+                <?= $this->Form->end() ?>
+            </div>
         </div>
-        <!-- /.box-header -->
-        <!-- form start -->
-        <?= $this->Form->create($user, array('role' => 'form')) ?>
-          <div class="box-body">
-              <div class="form-group">
-                  <label for="username" class="col-sm-12 control-label">Username</label>
-                  <div class="col-sm-5">
-                      <input type="text" class="form-control" id="username" name="username" placeholder="Insira seu nome de usuario" value="">
-                  </div>
-              </div>
-
-              <div class="form-group">
-                  <label for="password" class="col-sm-12 control-label">Senha</label>
-                  <div class="col-sm-5">
-                      <input type="password" class="form-control" id="password" name="password" placeholder="Insira a sua senha" value="">
-                  </div>
-              </div>
-
-              <div class="form-group">
-                  <label for="confirm_password" class="col-sm-12 control-label">Repita a Senha</label>
-                  <div class="col-sm-5">
-                      <input type="password" class="form-control" id="confirm_password" name="confirm_password" placeholder="Insira novamente a sua senha" value="">
-                  </div>
-              </div>
-
-              <div class="form-group">
-                  <label for="name" class="col-sm-12 control-label">Nome</label>
-                  <div class="col-sm-5">
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Informe o seu nome" value="">
-                  </div>
-              </div>
-
-              <div class="form-group">
-                  <label for="cpf" class="col-sm-12 control-label">CPF</label>
-                  <div class="col-sm-5">
-                      <input type="text" class="form-control" id="cpf" name="cpf" placeholder="Informe o seu CPF" value="">
-                  </div>
-              </div>
-
-              <div class="form-group">
-                  <label for="email" class="col-sm-12 control-label">Email</label>
-                  <div class="col-sm-5">
-                      <input type="email" class="form-control" id="email" name="email" placeholder="Informe o seu Email" value="">
-                  </div>
-              </div>
-
-              <div class="form-group">
-                  <label for="telefone" class="col-sm-12 control-label">Telefone</label>
-                  <div class="col-sm-5">
-                      <input type="telefone" class="form-control" id="telefone" name="telefone" placeholder="Informe o seu telefone" value="">
-                  </div>
-              </div>
-
-              <div class="form-group">
-                  <label for="rua" class="col-sm-12 control-label">Rua</label>
-                  <div class="col-sm-5">
-                      <input type="text" class="form-control" id="rua" name="rua" placeholder="Informe a sua Rua/AV." value="">
-                  </div>
-              </div>
-
-              <div class="form-group">
-                  <label for="numero" class="col-sm-12 control-label">Numero</label>
-                  <div class="col-sm-5">
-                      <input type="number" class="form-control" id="numero" name="numero" placeholder="Informe o numero da sua residencia" value="">
-                  </div>
-              </div>
-
-              <div class="form-group">
-                  <label for="bairro" class="col-sm-12 control-label">Bairro</label>
-                  <div class="col-sm-5">
-                      <input type="text" class="form-control" id="bairro" name="bairro" placeholder="Informe o seu bairro" value="">
-                  </div>
-              </div>
-
-              <div class="form-group">
-                  <label for="cidade" class="col-sm-12 control-label">Cidade</label>
-                  <div class="col-sm-5">
-                      <input type="text" class="form-control" id="cidade" name="cidade" placeholder="Informe a sua cidade" value="">
-                  </div>
-              </div>
-
-              <div class="form-group">
-                  <label for="complemento" class="col-sm-12 control-label">Complemento</label>
-                  <div class="col-sm-5">
-                      <input type="text" class="form-control" id="complemento" name="complemento" placeholder="Informe o complemento, caso haja" value="">
-                  </div>
-              </div>
-
-              <div class="form-group">
-                  <label for="estado" class="col-sm-12 control-label">Estado</label>
-                  <div class="col-sm-5">
-                      <input type="text" class="form-control" id="estado" name="estado" placeholder="Informe o estado" value="">
-                  </div>
-              </div>
-
-              <div class="form-group">
-                  <label for="instituition_id" class="col-sm-12 control-label">Instituiçao</label>
-                  <div class="col-sm-5">
-                      <input type="text" class="form-control" id="instituition_id" name="instituicao" placeholder="Selecione a Instituicao" value="">
-                  </div>
-              </div>
-
-              <div class="form-group">
-                  <label for="role_id" class="col-sm-12 control-label">Funcao</label>
-                  <div class="col-sm-5">
-                      <input type="text" class="f-dropdown" id="role_id" name="role" placeholder="Selecione a sua Funçao" value="">
-                  </div>
-              </div>
-
-              <div class="form-group">
-                  <label for="sel1">Selecione a Instituiçao</label>
-                  <select class="form-control" id="sel1">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                  </select>
-              </div>
-          </div>
-          <!-- /.box-body -->
-          <div class="box-footer">
-              <form method="post">
-                  <input type="submit" class="btn btn-md btn-default" value="Cadastrar">
-              </form>
-              <!--   <button type="button" class="btn btn-info"><?= $this->Form->button(__('Save')) ?></button> -->
-
-          </div>
-        <?= $this->Form->end() ?>
-      </div>
     </div>
-  </div>
 </section>
 
