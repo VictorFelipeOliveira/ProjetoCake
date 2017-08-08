@@ -1,7 +1,7 @@
 <section class="content-header">
     <h3>
         <ol class="breadcrumb">
-            <h3 style="float: left; margin-top: 5px;">Detalhes da Funcao</h3>
+            <h3 style="float: left; margin-top: 5px;">Detalhes sobre o Grupo</h3>
             <h4 style="text-align: right; float: ">
                 <li>
                     <?= $this->Html->link('<i class="fa fa-arrow-left"></i> ' . __('Voltar'), ['action' => 'index'], ['escape' => false]) ?>
@@ -21,12 +21,17 @@
                     <dl class="dl-horizontal">
                         <dt><?= __('ID') ?></dt>
                         <dd>
-                            <?= h($role->id) ?>
+                            <?= h($group->id) ?>
                         </dd>
 
-                        <dt><?= __('Role') ?></dt>
+                        <dt><?= __('Nome') ?></dt>
                         <dd>
-                            <?= h($role->role) ?>
+                            <?= h($group->nome) ?>
+                        </dd>
+
+                        <dt><?= __('Descriçao') ?></dt>
+                        <dd>
+                            <?= h($group->descricao) ?>
                         </dd>
 
                     </dl>
