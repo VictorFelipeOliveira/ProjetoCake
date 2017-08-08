@@ -7,7 +7,7 @@
 </section>
 
 <!-- Main content -->
-<section class="content">
+<section class="content form">
     <div class="row">
         <!-- left column -->
         <div class="col-md-12">

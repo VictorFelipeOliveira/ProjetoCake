@@ -7,7 +7,7 @@
 </section>
 
 <!-- Main content -->
-<section class="content">
+<section class="content form">
     <div class="row">
         <!-- left column -->
         <div class="col-md-12">
@@ -49,7 +49,7 @@
                                 <?php echo $this->Form->input('cidade', ['label' => 'Cidade *', 'class' => 'form-control', 'placeholder' => 'Insira o sua cidade']); ?>
                             </div>  
                             <div class="col-xs-6">
-                                <?php echo $this->Form->input('complemento', ['label' => 'Complemento ', 'class' => 'form-control', 'placeholder' => 'Insira o complemento']); ?>
+                                <?php echo $this->Form->input('complemento', ['label' => 'Complemento *', 'class' => 'form-control', 'placeholder' => 'Insira o complemento']); ?>
                             </div>  
                         </div>  
                         </br>    
@@ -83,4 +83,3 @@
         </div>
     </div>
 </section>
-
