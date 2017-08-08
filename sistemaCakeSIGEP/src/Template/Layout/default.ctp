@@ -44,7 +44,7 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
         
         <?= $this->Html->css('../bootstrap/css/bootstrap.css') ?>
         <?= $this->Html->css('form.css') ?>
-        
+
         <?= $this->fetch('meta') ?>
         <?= $this->fetch('css') ?>
         <?= $this->fetch('script') ?>
@@ -103,9 +103,17 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
                 <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-user"></i></a>
                 <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a> -->
 
-                <a href="<?= __('edit') ?>" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="Minha conta"><i class="fa fa-user"></i></a>
+                <div class="w3-dropdown-hover w3-hide-small w3-right">
+                    <button class="w3-button w3-padding-large" value="ajuda"><i class="fa fa-user "></i> Minha Conta</button>
+                    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+                        <a href="#" class="w3-bar-item w3-button">Minha Conta</a>
+                        <?= $this->Html->link('<i class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white fa fa-home">' . __('Logout') . '</i>', ['action' => 'logout'], ['escape' => false]) ?>
+                    </div>
+                </div>
 
-
+                             <!--   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="Minha conta"><i class="fa fa-user"></i></a>
+                <?= $this->Html->link('<i class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white fa fa-home">' . __('Logout') . '</i>', ['action' => 'logout'], ['escape' => false]) ?>
+            -->
 
             </div>
         </div>
@@ -195,6 +203,7 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
                 </div>
 
                 <!-- Middle Column -->
+                <?= $this->Flash->render() ?>
                 <div class="w3-col m9">
 
                     <div class="w3-row-padding">
