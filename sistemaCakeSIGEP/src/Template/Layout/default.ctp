@@ -106,14 +106,6 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
                 <a href="<?= __('edit') ?>" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="Minha conta"><i class="fa fa-user"></i></a>
 
 
-                <div class="w3-dropdown-hover w3-hide-small">
-                    <button class="w3-button w3-padding-large" value="ajuda"><i class="fa fa-question w3-margin-right"></i>Logout</button>
-                    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-                        <a href="<?=$this->html->link(__('Logout'),['Controller' => 'Users', 'action' => 'logout'])?>" class="w3-bar-item w3-button">Como utilizar</a>
-                    </div>
-                </div>
-
-                <?=$this->Form->(__('Logout'),['Controller' => 'Users', 'action' => 'logout'])?>
 
             </div>
         </div>
