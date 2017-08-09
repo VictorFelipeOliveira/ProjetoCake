@@ -61,7 +61,7 @@ class ProjectsController extends AppController
         $project = $this->Projects->newEntity();
         if ($this->request->is('post')) {
             $project = $this->Projects->patchEntity($project, $this->request->data);
-            if ($this->Projects->save($project) && $this->Upload->upload($this->request->data['filename'])) {
+            if ($this->Projects->save(($project),$this->Upload->upload($this->request->data['filename']))) {
                 $this->Flash->success(__('The {0} has been saved.', 'Project'));
                 return $this->redirect(['action' => 'index']);
             } else {
