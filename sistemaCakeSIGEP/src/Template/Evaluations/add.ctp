@@ -18,16 +18,19 @@
                     <h5 style="text-align: right" class="box-title"><?= __('Preencha os dados do formulario abaixo') ?></h5>
                     <h6 style="text-align: right" class="box-title"><?= __('* Campos obrigatórios') ?></h6>
                 </div>
+                <br>
+                
                 <!-- /.box-header -->
                 <!-- form start -->
                 <?= $this->Form->create($evaluation, array('role' => 'form')) ?>
                 <div class="box-body">
                     <?php
-                    echo $this->Form->input('date', ['empty' => true, 'default' => '', 'class' => 'datepicker form-control', 'type' => 'date']);
-                    echo $this->Form->input('groups_id', ['label' => 'Selecione o grupo', 'class' => 'form-control']);
-                    echo $this->Form->input('projects_id', ['label' => 'Selecione o projeto', 'class' => 'form-control']);
+                    echo $this->Form->input('date', ['empty' => true, 'default' => 'MMMM YYYY', 'class' => 'datepicker form-control', 'type' => 'date']);
+                    echo '<br>'.$this->Form->input('groups_id', ['label' => 'Selecione o grupo', 'class' => 'form-control']);
+                    echo '<br>'.$this->Form->input('projects_id', ['label' => 'Selecione o projeto', 'class' => 'form-control']);
                     ?>
                 </div>
+                <br>
                 <ol class="breadcrumb">
                     <div class='row'>
                         <div class="col-xs-6">
