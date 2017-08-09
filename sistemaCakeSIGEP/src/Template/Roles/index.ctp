@@ -30,7 +30,7 @@
                 <td class="actions" style="white-space:nowrap">
                   <?= $this->Html->link(__('Ver'), ['action' => 'view', $role->id], ['class'=>'btn btn-info btn-sm fa fa-eye']) ?>
                   <?= $this->Html->link(__('Editar'), ['action' => 'edit', $role->id], ['class'=>'btn btn-warning btn-sm fa fa-pencil']) ?>
-                  <?= $this->Form->postLink(__('Excluir'), ['action' => 'delete', $role->id], ['confirm' => __('Confirm to delete this entry?'), 'class'=>'btn btn-danger btn-sm fa fa-trash']) ?>
+                  <?= $this->Form->postLink(__('Excluir'), ['action' => 'delete', $role->id], ['confirm' => __('Tem certeza que deseja excluir esse registro?'), 'class'=>'btn btn-danger btn-sm fa fa-trash']) ?>
                 </td>
               </tr>
             <?php endforeach; ?>

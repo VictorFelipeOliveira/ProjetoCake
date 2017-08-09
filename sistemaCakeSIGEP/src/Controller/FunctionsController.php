@@ -54,10 +54,10 @@ class FunctionsController extends AppController
         if ($this->request->is('post')) {
             $function = $this->Functions->patchEntity($function, $this->request->data);
             if ($this->Functions->save($function)) {
-                $this->Flash->success(__('The {0} has been saved.', 'Function'));
+                $this->Flash->success(__('Registro salvo com sucesso.', 'Function'));
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error(__('The {0} could not be saved. Please, try again.', 'Function'));
+                $this->Flash->error(__('O registro não pode ser salvo. Por favor, tente novamente.', 'Function'));
             }
         }
         $this->set(compact('function'));
@@ -79,10 +79,10 @@ class FunctionsController extends AppController
         if ($this->request->is(['patch', 'post', 'put'])) {
             $function = $this->Functions->patchEntity($function, $this->request->data);
             if ($this->Functions->save($function)) {
-                $this->Flash->success(__('The {0} has been saved.', 'Function'));
+                $this->Flash->success(__('Registro atualizado com sucesso.', 'Function'));
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error(__('The {0} could not be saved. Please, try again.', 'Function'));
+                $this->Flash->error(__('O registro não pode ser salvo. Por favor, tente novamente.', 'Function'));
             }
         }
         $this->set(compact('function'));
@@ -101,9 +101,9 @@ class FunctionsController extends AppController
         $this->request->allowMethod(['post', 'delete']);
         $function = $this->Functions->get($id);
         if ($this->Functions->delete($function)) {
-            $this->Flash->success(__('The {0} has been deleted.', 'Function'));
+            $this->Flash->success(__('O registro excluido com sucesso.', 'Function'));
         } else {
-            $this->Flash->error(__('The {0} could not be deleted. Please, try again.', 'Function'));
+            $this->Flash->error(__('O registro não pode ser excluído. Por favor, tente novamente.', 'Function'));
         }
         return $this->redirect(['action' => 'index']);
     }

@@ -54,10 +54,10 @@ class RolesController extends AppController
         if ($this->request->is('post')) {
             $role = $this->Roles->patchEntity($role, $this->request->data);
             if ($this->Roles->save($role)) {
-                $this->Flash->success(__('The {0} has been saved.', 'Role'));
+                $this->Flash->success(__('Registro salvo com sucesso.', 'Role'));
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error(__('The {0} could not be saved. Please, try again.', 'Role'));
+                $this->Flash->error(__('O registro não pode ser salvo. Por favor, tente novamente.', 'Role'));
             }
         }
         $this->set(compact('role'));
@@ -79,10 +79,10 @@ class RolesController extends AppController
         if ($this->request->is(['patch', 'post', 'put'])) {
             $role = $this->Roles->patchEntity($role, $this->request->data);
             if ($this->Roles->save($role)) {
-                $this->Flash->success(__('The {0} has been saved.', 'Role'));
+                $this->Flash->success(__('Registro atualizado com sucesso.', 'Role'));
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error(__('The {0} could not be saved. Please, try again.', 'Role'));
+                $this->Flash->error(__('O registro não pode ser atualizado. Por favor, tente novamente.', 'Role'));
             }
         }
         $this->set(compact('role'));
@@ -101,9 +101,9 @@ class RolesController extends AppController
         $this->request->allowMethod(['post', 'delete']);
         $role = $this->Roles->get($id);
         if ($this->Roles->delete($role)) {
-            $this->Flash->success(__('The {0} has been deleted.', 'Role'));
+            $this->Flash->success(__('O registro excluido com sucesso.', 'Role'));
         } else {
-            $this->Flash->error(__('The {0} could not be deleted. Please, try again.', 'Role'));
+            $this->Flash->error(__('O registro não pode ser excluído. Por favor, tente novamente.', 'Role'));
         }
         return $this->redirect(['action' => 'index']);
     }
