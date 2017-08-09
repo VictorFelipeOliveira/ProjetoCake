@@ -22,20 +22,20 @@
                 <?= $this->Form->create($user, array('role' => 'form')) ?>
                 <div class="form-group">
                     <?php
-                    echo $this->Form->input('login', ['label' => 'Login *', 'class' => 'form-control', 'placeholder' => 'Insira o seu login']);
-                    echo '<br>' . $this->Form->input('password', ['label' => 'Password *', 'class' => 'form-control', 'placeholder' => 'Insira o sua password']);
-                    echo '<br>' . $this->Form->input('nome', ['label' => 'Nome *', 'class' => 'form-control', 'placeholder' => 'Insira o seu nome']);
-                    echo '<br>' . $this->Form->input('cpf', ['label' => 'Cpf *', 'class' => 'form-control', 'placeholder' => 'Insira o seu cpf']);
-                    echo '<br>' . $this->Form->input('email', ['label' => 'Email *', 'class' => 'form-control', 'placeholder' => 'Insira o seu email']);
+                    echo $this->Form->input('nome', ['label' => 'Nome', 'class' => 'form-control', 'placeholder' => 'Insira o seu nome']);
+                    echo '<br>' . $this->Form->input('username', ['label' => 'Login', 'class' => 'form-control', 'placeholder' => 'Insira o seu login']);
+                    echo '<br>' . $this->Form->input('password', ['label' => 'Password', 'class' => 'form-control', 'placeholder' => 'Insira o sua password']);
+                    echo '<br>' . $this->Form->input('email', ['label' => 'Email', 'class' => 'form-control', 'placeholder' => 'Insira o seu email']);
+                    echo '<br>' . $this->Form->input('cpf', ['label' => 'Cpf', 'class' => 'form-control', 'placeholder' => 'Insira o seu cpf']);
                     echo '<br>' . $this->Form->input('telefone', ['class' => 'form-control', 'placeholder' => 'Insira o seu telefone']);
                     ?>
                     <br>
                     <div class='row'>
                         <div class="col-xs-6">
-                            <?php echo $this->Form->input('institutions_id', ['label' => 'Instituição *', 'class' => 'form-control', 'placeholder' => 'Insira o sua instituição']); ?>
+                            <?php echo $this->Form->input('institutions_id', ['label' => 'Instituição', 'class' => 'form-control', 'placeholder' => 'Insira o sua instituição']); ?>
                         </div>  
                         <div class="col-xs-6">
-                            <?php echo $this->Form->input('roles_id', ['label' => 'Função *', 'class' => 'form-control', 'placeholder' => 'Insira o sua função']); ?>
+                            <?php echo $this->Form->input('roles_id', ['label' => 'Função', 'class' => 'form-control', 'placeholder' => 'Insira o sua função']); ?>
                         </div>  
                     </div>
                     <br/>
@@ -45,32 +45,26 @@
 
                         <div class='row'>
                             <div class="col-xs-6">
-                                <?php echo $this->Form->input('cidade', ['label' => 'Cidade *', 'class' => 'form-control', 'placeholder' => 'Insira o sua cidade']); ?>
+                                <?php echo $this->Form->input('cidade', ['label' => 'Cidade', 'class' => 'form-control', 'placeholder' => 'Insira o sua cidade']); ?>
                             </div>  
                             <div class="col-xs-6">
-                                <?php echo $this->Form->input('complemento', ['label' => 'Complemento *', 'class' => 'form-control', 'placeholder' => 'Insira o complemento']); ?>
+                                <?php echo $this->Form->input('complemento', ['label' => 'Complemento', 'class' => 'form-control', 'placeholder' => 'Insira o complemento']); ?>
                             </div>  
                         </div>  
-                        </br>    
+                        <br>    
                         <div class='row'>
                             <div class="col-xs-4">
-                                <?php echo $this->Form->input('rua', ['label' => 'Rua *', 'class' => 'form-control', 'placeholder' => 'Insira a rua']); ?>
+                                <?php echo $this->Form->input('rua', ['label' => 'Rua', 'class' => 'form-control', 'placeholder' => 'Insira a rua']); ?>
                             </div>  
                             <div class="col-xs-2">
-                                <?php echo $this->Form->input('numero', ['label' => 'Numero *', 'class' => 'form-control', 'placeholder' => 'Insira o numero']); ?>
+                                <?php echo $this->Form->input('numero', ['label' => 'Numero', 'class' => 'form-control', 'placeholder' => 'Insira o numero']); ?>
                             </div>  
                             <div class="col-xs-6">
-                                <?php echo $this->Form->input('bairro', ['label' => 'Bairro *', 'class' => 'form-control', 'placeholder' => 'Insira o bairro']); ?>
+                                <?php echo $this->Form->input('bairro', ['label' => 'Bairro', 'class' => 'form-control', 'placeholder' => 'Insira o bairro']); ?>
                             </div>  
                         </div>  
-                        </br>    
+                        <br>    
                     </fieldset>    
-
-
-                </div>
-                <!-- /.box-body -->
-                <div class="box-footer">
-
                 </div>
                 <ol class="breadcrumb">
                     <div class='row'>
@@ -87,4 +81,3 @@
         </div>
     </div>
 </section>
-

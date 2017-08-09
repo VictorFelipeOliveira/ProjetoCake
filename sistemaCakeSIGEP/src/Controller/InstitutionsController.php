@@ -54,10 +54,10 @@ class InstitutionsController extends AppController
         if ($this->request->is('post')) {
             $institution = $this->Institutions->patchEntity($institution, $this->request->data);
             if ($this->Institutions->save($institution)) {
-                $this->Flash->success(__('The {0} has been saved.', 'Institution'));
+                $this->Flash->success(__('Registro salvo com sucesso.', 'Institution'));
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error(__('The {0} could not be saved. Please, try again.', 'Institution'));
+                $this->Flash->error(__('O registro não pode ser salvo. Por favor, tente novamente.', 'Institution'));
             }
         }
         $this->set(compact('institution'));
@@ -79,10 +79,10 @@ class InstitutionsController extends AppController
         if ($this->request->is(['patch', 'post', 'put'])) {
             $institution = $this->Institutions->patchEntity($institution, $this->request->data);
             if ($this->Institutions->save($institution)) {
-                $this->Flash->success(__('The {0} has been saved.', 'Institution'));
+                $this->Flash->success(__('Registro atualizado com sucesso.', 'Institution'));
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error(__('The {0} could not be saved. Please, try again.', 'Institution'));
+                $this->Flash->error(__('O registro não pode ser atualizado. Por favor, tente novamente.', 'Institution'));
             }
         }
         $this->set(compact('institution'));
@@ -101,9 +101,9 @@ class InstitutionsController extends AppController
         $this->request->allowMethod(['post', 'delete']);
         $institution = $this->Institutions->get($id);
         if ($this->Institutions->delete($institution)) {
-            $this->Flash->success(__('The {0} has been deleted.', 'Institution'));
+            $this->Flash->success(__('O registro excluido com sucesso.', 'Institution'));
         } else {
-            $this->Flash->error(__('The {0} could not be deleted. Please, try again.', 'Institution'));
+            $this->Flash->error(__('O registro não pode ser excluído. Por favor, tente novamente.', 'Institution'));
         }
         return $this->redirect(['action' => 'index']);
     }

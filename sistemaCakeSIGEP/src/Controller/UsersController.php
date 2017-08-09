@@ -57,10 +57,10 @@ class UsersController extends AppController
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->data);
             if ($this->Users->save($user)) {
-                $this->Flash->success(__('The {0} has been saved.', 'User'));
+                $this->Flash->success(__('Registro salvo com sucesso.', 'User'));
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error(__('The {0} could not be saved. Please, try again.', 'User'));
+                $this->Flash->error(__('O registro não pode ser salvo. Por favor, tente novamente.', 'User'));
             }
         }
         $institutions = $this->Users->Institutions->find('list', ['limit' => 200]);
@@ -84,10 +84,10 @@ class UsersController extends AppController
         if ($this->request->is(['patch', 'post', 'put'])) {
             $user = $this->Users->patchEntity($user, $this->request->data);
             if ($this->Users->save($user)) {
-                $this->Flash->success(__('The {0} has been saved.', 'User'));
+                $this->Flash->success(__('Registro atualizado com sucesso.', 'User'));
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error(__('The {0} could not be saved. Please, try again.', 'User'));
+                $this->Flash->error(__('O registro não pode ser atualizado. Por favor, tente novamente.', 'User'));
             }
         }
         $institutions = $this->Users->Institutions->find('list', ['limit' => 200]);
@@ -108,9 +108,9 @@ class UsersController extends AppController
         $this->request->allowMethod(['post', 'delete']);
         $user = $this->Users->get($id);
         if ($this->Users->delete($user)) {
-            $this->Flash->success(__('The {0} has been deleted.', 'User'));
+            $this->Flash->success(__('O registro excluido com sucesso.', 'User'));
         } else {
-            $this->Flash->error(__('The {0} could not be deleted. Please, try again.', 'User'));
+            $this->Flash->error(__('O registro não pode ser excluído. Por favor, tente novamente.', 'User'));
         }
         return $this->redirect(['action' => 'index']);
     }

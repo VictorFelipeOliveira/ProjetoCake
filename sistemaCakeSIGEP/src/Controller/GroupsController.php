@@ -54,10 +54,10 @@ class GroupsController extends AppController
         if ($this->request->is('post')) {
             $group = $this->Groups->patchEntity($group, $this->request->data);
             if ($this->Groups->save($group)) {
-                $this->Flash->success(__('The {0} has been saved.', 'Group'));
+                $this->Flash->success(__('Registro salvo com sucesso.', 'Group'));
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error(__('The {0} could not be saved. Please, try again.', 'Group'));
+                $this->Flash->error(__('O registro não pode ser salvo. Por favor, tente novamente.', 'Group'));
             }
         }
         $this->set(compact('group'));
@@ -79,10 +79,10 @@ class GroupsController extends AppController
         if ($this->request->is(['patch', 'post', 'put'])) {
             $group = $this->Groups->patchEntity($group, $this->request->data);
             if ($this->Groups->save($group)) {
-                $this->Flash->success(__('The {0} has been saved.', 'Group'));
+                $this->Flash->success(__('Registro atualizado com sucesso.', 'Group'));
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error(__('The {0} could not be saved. Please, try again.', 'Group'));
+                $this->Flash->error(__('O registro não pode ser atualizado. Por favor, tente novamente.', 'Group'));
             }
         }
         $this->set(compact('group'));
@@ -101,9 +101,9 @@ class GroupsController extends AppController
         $this->request->allowMethod(['post', 'delete']);
         $group = $this->Groups->get($id);
         if ($this->Groups->delete($group)) {
-            $this->Flash->success(__('The {0} has been deleted.', 'Group'));
+            $this->Flash->success(__('O registro excluido com sucesso.', 'Group'));
         } else {
-            $this->Flash->error(__('The {0} could not be deleted. Please, try again.', 'Group'));
+            $this->Flash->error(__('O registro não pode ser excluído. Por favor, tente novamente.', 'Group'));
         }
         return $this->redirect(['action' => 'index']);
     }
