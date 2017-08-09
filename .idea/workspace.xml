@@ -2,7 +2,1004 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b46e630d-8111-46f2-a6fd-106f6cbf731a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/default.ctp" afterPath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/default.ctp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/ProjetoCake.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/cake_config_setting_v0_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diagramas/diagrama.mwb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diagramas/diagrama.mwb.bak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/ScriptBD.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/login.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/login_e_logout.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/mydb.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/.github/ISSUE_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/.github/PULL_REQUEST_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/.idea/cake_config_setting_v0_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/.idea/php.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/.idea/sistemaCakeSIGEP.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/bin/cake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/bin/cake.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/bin/cake.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/config/Migrations/20170806163419_CreateFunctions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/config/Migrations/20170806164130_AlterUsers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/config/Migrations/20170806165714_Initial.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/config/Migrations/20170806170820_RemoveModalidadeFromUsers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/config/Migrations/schema-dump-default.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/config/app.default.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/config/bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/config/bootstrap_cli.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/config/paginator-template.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/config/paths.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/config/routes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/config/schema/i18n.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/config/schema/sessions.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/nbproject/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/nbproject/project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/plugins/empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Application.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Console/Installer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/AppController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/Component/empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/ErrorController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/FunctionsController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/GroupsController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/InstitutionsController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/PagesController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/RolesController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/UsersController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Behavior/empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Entity/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Entity/Group.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Entity/Institution.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Entity/Role.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Entity/User.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/FunctionsTable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/GroupsTable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/InstitutionsTable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/RolesTable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/UsersTable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Shell/ConsoleShell.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Bake/Element/Controller/add.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Bake/Element/Controller/delete.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Bake/Element/Controller/edit.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Bake/Element/datepicker.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Bake/Element/form.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Bake/Template/add.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Bake/Template/edit.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Bake/Template/index.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Bake/Template/view.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Element/Flash/default.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Element/Flash/error.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Element/Flash/success.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Element/aside-control-sidebar.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Element/aside-main-sidebar.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Element/aside/form.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Element/aside/sidebar-menu.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Element/aside/user-panel.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Element/footer.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Element/nav-top.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Email/html/default.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Email/text/default.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Error/error400.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Error/error500.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Functions/add.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Functions/edit.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Functions/index.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Functions/view.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Groups/add.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Groups/edit.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Groups/index.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Groups/view.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Institutions/add.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Institutions/edit.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Institutions/index.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Institutions/view.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/Email/html/default.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/Email/text/default.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/ajax.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/boxed.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/collapsed.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/default.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/documentation.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/error.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/fixed.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/lockscreen.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/login.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/print.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/register.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/rss/default.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/top.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/calendar.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/charts/chartjs.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/charts/flot.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/charts/inline.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/charts/morris.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/debug.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/documentation.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/examples/404.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/examples/500.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/examples/blank.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/examples/invoice-print.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/examples/invoice.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/examples/lockscreen.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/examples/login.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/examples/pace.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/examples/profile.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/examples/register.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/forms/advanced.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/forms/editors.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/forms/general.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/home.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/home2.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/layout/boxed.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/layout/collapsed-sidebar.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/layout/fixed.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/layout/top-nav.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/mailbox/compose.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/mailbox/mailbox.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/mailbox/read-mail.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/starter.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/tables/data.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/tables/simple.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/ui/buttons.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/ui/general.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/ui/icons.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/ui/modals.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/ui/sliders.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/ui/timeline.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/widgets.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/add.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/edit.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/index.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/view.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/add.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/edit.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/index.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/login.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/view.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/View/AdminLTEView.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/View/AjaxView.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/View/Helper/FormHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/src/View/Helper/empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/Fixture/FunctionsFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/Fixture/GroupsFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/Fixture/InstitutionsFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/Fixture/RolesFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/Fixture/UsersFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/TestCase/ApplicationTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/TestCase/Controller/Component/empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/TestCase/Controller/FunctionsControllerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/TestCase/Controller/GroupsControllerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/TestCase/Controller/InstitutionsControllerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/TestCase/Controller/PagesControllerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/TestCase/Controller/RolesControllerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/TestCase/Controller/UsersControllerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/TestCase/Model/Behavior/empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/TestCase/Model/Table/FunctionsTableTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/TestCase/Model/Table/GroupsTableTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/TestCase/Model/Table/InstitutionsTableTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/TestCase/Model/Table/RolesTableTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/TestCase/Model/Table/UsersTableTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/TestCase/View/Helper/empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/tests/tmp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/css/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/css/cake.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/css/debug.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/css/documentation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/css/form.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/css/home.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/css/menu-right.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/font/cakedingbats-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/font/cakedingbats-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/font/cakedingbats-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/font/cakedingbats-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/font/cakedingbats-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/avatar04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/avatar2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/avatar3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/avatar5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/boxed-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/boxed-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/cake-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/cake.icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/cake.logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/cake.power.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/credit/american-express.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/credit/cirrus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/credit/mastercard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/credit/mestro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/credit/paypal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/credit/paypal2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/credit/visa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/default-50x50.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/photo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/photo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/photo3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/photo4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/user1-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/user2-160x160.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/user3-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/user4-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/user5-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/user6-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/user7-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/img/user8-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/js/documentation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/js/empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/bootstrap-slider/bootstrap-slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/bootstrap-slider/slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/chartjs/Chart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/chartjs/Chart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/CHANGES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/adapters/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/build-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/ckeditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/contents.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/af.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/bn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/bs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/en-au.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/en-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/fo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/gu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/ku.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/mn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/sr-latn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/ug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/lang/zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/about/dialogs/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/fakeobjects/images/spacer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/icons_hidpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/image/dialogs/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/image/images/noimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/link/dialogs/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/link/dialogs/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/link/images/anchor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/link/images/hidpi/anchor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/magicline/images/hidpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/magicline/images/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/pastefromword/filter/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/scayt/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/scayt/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/scayt/dialogs/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/table/dialogs/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/wsc/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/wsc/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/wsc/dialogs/tmp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/dialog_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/dialog_ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/dialog_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/dialog_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/dialog_opera.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/editor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/editor_gecko.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/editor_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/editor_ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/editor_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/editor_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/icons_hidpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/images/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/images/hidpi/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/images/hidpi/lock-open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/images/hidpi/lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/images/hidpi/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/images/lock-open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/images/lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/images/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/skins/moono/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ckeditor/styles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/colorpicker/bootstrap-colorpicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/colorpicker/bootstrap-colorpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/colorpicker/bootstrap-colorpicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/colorpicker/bootstrap-colorpicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/colorpicker/img/alpha-horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/colorpicker/img/alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/colorpicker/img/hue-horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/colorpicker/img/hue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/colorpicker/img/saturation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/dataTables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/dataTables.bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/AutoFill/Readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/AutoFill/examples/columns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/AutoFill/examples/complete-callback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/AutoFill/examples/fill-both.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/AutoFill/examples/fill-horizontal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/AutoFill/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/AutoFill/examples/scrolling.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/AutoFill/examples/simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/AutoFill/examples/step-callback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/AutoFill/images/filler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/License.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/examples/alt_insert.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/examples/col_filter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/examples/colvis.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/examples/fixedcolumns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/examples/fixedheader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/examples/jqueryui.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/examples/new_init.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/examples/predefined.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/examples/realtime.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/examples/reset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/examples/scrolling.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/examples/server_side.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/examples/simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/examples/state_save.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/images/insert.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/License.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/css/dataTables.colVis.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/css/dataTables.colVis.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/css/dataTables.colvis.jqueryui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/examples/button_order.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/examples/exclude_columns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/examples/group_columns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/examples/jqueryui.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/examples/mouseover.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/examples/new_init.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/examples/restore.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/examples/simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/examples/text.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/examples/title_callback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/examples/two_tables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/examples/two_tables_identical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/js/dataTables.colVis.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/ColVis/js/dataTables.colVis.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/License.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/examples/bootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/examples/col_filter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/examples/colvis.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/examples/css_size.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/examples/index_column.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/examples/left_right_columns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/examples/right_column.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/examples/rowspan.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/examples/server-side-processing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/examples/simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/examples/size_fixed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/examples/size_fluid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/examples/two_columns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedHeader/Readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedHeader/examples/header_footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedHeader/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedHeader/examples/simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedHeader/examples/top_left_right.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedHeader/examples/two_tables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedHeader/examples/zIndexes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/KeyTable/Readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/KeyTable/examples/events.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/KeyTable/examples/html.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/KeyTable/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/KeyTable/examples/scrolling.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/KeyTable/examples/simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/License.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/css/dataTables.responsive.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/child-rows/column-control.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/child-rows/custom-renderer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/child-rows/disable-child-rows.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/child-rows/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/child-rows/right-column.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/child-rows/whole-row-control.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/display-control/auto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/display-control/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/display-control/complexHeader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/display-control/fixedHeader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/display-control/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/display-control/init-classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/initialisation/ajax.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/initialisation/className.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/initialisation/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/initialisation/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/initialisation/new.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/initialisation/option.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/styling/bootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/styling/compact.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/styling/foundation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/styling/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/examples/styling/scrolling.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Scroller/Readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Scroller/examples/api_scrolling.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Scroller/examples/data/2500.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Scroller/examples/data/ssp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Scroller/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Scroller/examples/large_js_source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Scroller/examples/server-side_processing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Scroller/examples/simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Scroller/examples/state_saving.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Scroller/images/loading-background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Scroller/js/dataTables.scroller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/ajax.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/alter_buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/bootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/button_text.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/collection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/defaults.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/jqueryui.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/multi_instance.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/multiple_tables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/new_init.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/pdf_message.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/plug-in.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/select_column.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/select_multi.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/select_os.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/select_single.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/examples/swf_path.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/images/collection.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/images/collection_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/images/copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/images/copy_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/images/csv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/images/csv_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/images/pdf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/images/pdf_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/images/print.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/images/print_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/images/psd/collection.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/images/psd/copy document.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/images/psd/file_types.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/images/psd/printer.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/images/xls.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/images/xls_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/swf/copy_csv_xls.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/images/sort_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/images/sort_asc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/images/sort_both.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/images/sort_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/images/sort_desc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/jquery.dataTables.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/jquery.dataTables.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/jquery.dataTables.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datatables/jquery.dataTables_themeroller.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/datepicker3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.az.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.kk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.kr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.nl-BE.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.rs-latin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.rs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.sw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.ua.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/datepicker/locales/bootstrap-datepicker.zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/daterangepicker/daterangepicker-bs3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/daterangepicker/daterangepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/daterangepicker/moment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/daterangepicker/moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/fastclick/fastclick.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/fastclick/fastclick.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/excanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.colorhelpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.colorhelpers.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.canvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.categories.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.categories.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.crosshair.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.crosshair.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.errorbars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.errorbars.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.fillbetween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.fillbetween.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.image.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.navigate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.navigate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.pie.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.resize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.resize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.selection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.selection.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.stack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.stack.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.symbol.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.threshold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.threshold.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.time.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/flot/jquery.flot.time.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/fullcalendar/fullcalendar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/fullcalendar/fullcalendar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/fullcalendar/fullcalendar.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/fullcalendar/fullcalendar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/fullcalendar/fullcalendar.print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/aero.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/aero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/aero@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/blue@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/flat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/flat@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/grey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/grey@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/orange@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/pink@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/red@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/flat/yellow@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/futurico/futurico.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/futurico/futurico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/futurico/futurico@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/icheck.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/icheck.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/line/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/line/aero.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/line/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/line/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/line/grey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/line/line.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/line/line.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/line/line@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/line/orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/line/pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/line/purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/line/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/line/yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/aero.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/aero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/aero@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/blue@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/grey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/grey@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/minimal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/minimal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/minimal@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/orange@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/pink@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/red@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/minimal/yellow@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/polaris/polaris.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/polaris/polaris.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/polaris/polaris@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/aero.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/aero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/aero@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/blue@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/grey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/grey@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/orange@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/pink@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/red@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/square.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/square.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/square@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/iCheck/square/yellow@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/input-mask/jquery.inputmask.date.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/input-mask/jquery.inputmask.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/input-mask/jquery.inputmask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/input-mask/jquery.inputmask.numeric.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/input-mask/jquery.inputmask.phone.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/input-mask/jquery.inputmask.regex.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/input-mask/phone-codes/phone-be.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/input-mask/phone-codes/phone-codes.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/input-mask/phone-codes/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ionslider/img/sprite-skin-flat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ionslider/img/sprite-skin-nice.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ionslider/ion.rangeSlider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ionslider/ion.rangeSlider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ionslider/ion.rangeSlider.skinFlat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/ionslider/ion.rangeSlider.skinNice.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/jQuery/jQuery-2.1.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/jQueryUI/jquery-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/jQueryUI/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/jvectormap/jquery-jvectormap-1.2.2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/jvectormap/jquery-jvectormap-usa-en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/knob/jquery.knob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/morris/morris.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/morris/morris.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/morris/morris.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/pace/pace.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/pace/pace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/pace/pace.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/pace/pace.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/az.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/i18n/zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/select2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/select2.full.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/select2.full.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/select2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/select2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/select2/select2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/slimScroll/jquery.slimscroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/slimScroll/jquery.slimscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/sparkline/jquery.sparkline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/sparkline/jquery.sparkline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/timepicker/bootstrap-timepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/timepicker/bootstrap-timepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/timepicker/bootstrap-timepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/plugins/timepicker/bootstrap-timepicker.min.js" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,76 +1015,36 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/UsersController.php">
+      <file leaf-file-name="UploadComponent.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/Component/UploadComponent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
-              <caret line="126" column="5" lean-forward="true" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.ctp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/view.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="954">
-              <caret line="53" column="57" lean-forward="false" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.ctp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/view.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ctp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/index.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="38" column="95" lean-forward="true" selection-start-line="38" selection-start-column="95" selection-end-line="38" selection-end-column="124" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.ctp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/edit.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.ctp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/home.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-738">
-              <caret line="25" column="68" lean-forward="false" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+            <state relative-caret-position="-229">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
-                <element signature="e#593#614#0#PHP" expanded="true" />
+                <element signature="e#43#73#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.ctp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/default.ctp">
+      <file leaf-file-name="ArquivosController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/ArquivosController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+            <state relative-caret-position="-233">
+              <caret line="71" column="28" lean-forward="false" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
               <folding>
-                <marker date="1502223034841" expanded="true" signature="12997:13003" ph="..." />
+                <element signature="e#33#66#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Arquivos/add.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,6 +1072,8 @@
       <find>lo</find>
       <find>username</find>
       <find>us</find>
+      <find>gale</find>
+      <find>arq</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/sistemaCakeSIGEP</dir>
@@ -147,7 +1106,6 @@
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Institutions/view.ctp" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Institutions/edit.ctp" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Element/aside/sidebar-menu.ctp" />
-        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/home.ctp" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/InstitutionsController.php" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Entity/Institution.php" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/InstitutionsTable.php" />
@@ -161,12 +1119,22 @@
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/login.ctp" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/add.ctp" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/index.ctp" />
-        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/add.ctp" />
-        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/edit.ctp" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/view.ctp" />
-        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/index.ctp" />
-        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/view.ctp" />
+        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/home.ctp" />
+        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/webroot/css/menu-right.css" />
         <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/default.ctp" />
+        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/add.ctp" />
+        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/index.ctp" />
+        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Groups/add.ctp" />
+        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Groups/index.ctp" />
+        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Groups/edit.ctp" />
+        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/edit.ctp" />
+        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/view.ctp" />
+        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Groups/view.ctp" />
+        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Arquivos/add.ctp" />
+        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/ArquivosTable.php" />
+        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/ArquivosController.php" />
+        <option value="$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/Component/UploadComponent.php" />
       </list>
     </option>
   </component>
@@ -225,7 +1193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -288,7 +1255,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="files" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -354,59 +1321,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Roles" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetoCake" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetoCake" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sistemaCakeSIGEP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pages" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetoCake" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetoCake" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sistemaCakeSIGEP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Layout" />
+              <option name="myItemId" value="Arquivos" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -506,8 +1421,35 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetoCake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetoCake" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sistemaCakeSIGEP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Component" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -614,34 +1556,36 @@
       <workItem from="1502026283244" duration="13764000" />
       <workItem from="1502045814723" duration="23856000" />
       <workItem from="1502105769337" duration="19885000" />
-      <workItem from="1502196274803" duration="12452000" />
+      <workItem from="1502196274803" duration="23550000" />
+      <workItem from="1502241823910" duration="701000" />
+      <workItem from="1502280155531" duration="13251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92967000" />
+    <option name="totallyTimeSpent" value="118017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20937042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3213763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.048973143" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.034755133" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968404" sideWeight="0.49707174" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.034755133" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968404" sideWeight="0.49707174" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -653,10 +1597,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23133236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23499268" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.036334913" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.034755133" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -674,56 +1618,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/config/Migrations/20170806170820_RemoveModalidadeFromUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/config/Migrations/20170806165714_Initial.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6211">
-          <caret line="583" column="26" lean-forward="true" selection-start-line="583" selection-start-column="26" selection-end-line="583" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Admin/Users/view.ctp" />
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Admin/Users/login.ctp" />
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Admin/Institutions/add.ctp" />
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/Admin/InstitutionsController.php" />
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Admin/Users/add.ctp" />
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Admin/Institutions/view.ctp" />
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/RolesTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/Admin/UsersController.php" />
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Institutions/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="62" column="40" lean-forward="false" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/tests/tmp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Institutions/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -756,7 +1650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="14" column="109" lean-forward="false" selection-start-line="14" selection-start-column="109" selection-end-line="14" selection-end-column="109" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,7 +1657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1386">
           <caret line="77" column="83" lean-forward="false" selection-start-line="77" selection-start-column="83" selection-end-line="77" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,7 +1671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="27" column="14" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="27" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,7 +1685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="71" column="76" lean-forward="false" selection-start-line="71" selection-start-column="76" selection-end-line="71" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,7 +1709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1135">
           <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,7 +1716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,7 +1723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
           <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,7 +1731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,7 +1738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,33 +1752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/PagesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/UsersTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-413">
-          <caret line="11" column="73" lean-forward="false" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="79" />
-          <folding>
-            <marker date="1502198147490" expanded="true" signature="2073:2074" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/AppController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="80" column="41" lean-forward="false" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -901,7 +1759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-807">
           <caret line="278" column="27" lean-forward="true" selection-start-line="278" selection-start-column="27" selection-end-line="278" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -909,11 +1766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-          <folding>
-            <element signature="e#7#592#0#PHP" expanded="false" />
-            <element signature="e#593#614#0#PHP" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -921,25 +1773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-          <folding>
-            <element signature="e#35#71#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="130" lean-forward="true" selection-start-line="35" selection-start-column="99" selection-end-line="35" selection-end-column="130" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -947,7 +1780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="34" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,70 +1791,210 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/index.ctp">
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-183">
-          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="954">
+          <caret line="53" column="57" lean-forward="false" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/edit.ctp">
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="321">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/index.ctp">
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/webroot/css/menu-right.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="38" column="95" lean-forward="true" selection-start-line="38" selection-start-column="95" selection-end-line="38" selection-end-column="124" />
-          <folding />
+        <state relative-caret-position="519">
+          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Pages/home.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-738">
-          <caret line="25" column="68" lean-forward="false" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
-          <folding>
-            <element signature="e#593#614#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="126" column="5" lean-forward="true" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="53" column="57" lean-forward="false" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="540">
+          <caret line="96" column="18" lean-forward="false" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Layout/default.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        <state relative-caret-position="-539">
+          <caret line="168" column="26" lean-forward="true" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/webroot/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/edit.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="35" column="77" lean-forward="false" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Roles/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="69" lean-forward="false" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="125" column="5" lean-forward="false" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="80" column="41" lean-forward="false" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Users/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/UsersTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="11" column="73" lean-forward="false" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="79" />
           <folding>
-            <marker date="1502223034841" expanded="true" signature="12997:13003" ph="..." />
+            <marker date="1502198147490" expanded="true" signature="2073:2074" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Groups/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Groups/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Groups/edit.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="40" column="77" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Groups/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <marker date="1502231202932" expanded="true" signature="1414:1447" ph="..." />
+            <marker date="1502231202932" expanded="true" signature="1500:1551" ph="..." />
+            <marker date="1502231202932" expanded="true" signature="1757:1813" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="814" column="9" lean-forward="false" selection-start-line="814" selection-start-column="9" selection-end-line="814" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Table/ArquivosTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#34#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="129" column="20" lean-forward="false" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Template/Arquivos/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Model/Entity/Arquivo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/ArquivosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233">
+          <caret line="71" column="28" lean-forward="false" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
+          <folding>
+            <element signature="e#33#66#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistemaCakeSIGEP/src/Controller/Component/UploadComponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#73#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
