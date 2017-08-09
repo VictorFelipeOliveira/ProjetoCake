@@ -18,7 +18,7 @@ class UploadComponent extends Component
     public function upload($data){
         if(count($data) > $this->max_files){
             $this->_registry->getController()->Flash->error('Limite de arquivos excedidos.');
-            return $this->_registry->getController()->redirect(['controller' => 'arquivos', 'action' => 'add']);
+            return $this->_registry->getController()->redirect(['controller' => 'projects', 'action' => 'add']);
         }
 
         foreach ($data as $file) {
@@ -35,7 +35,7 @@ class UploadComponent extends Component
 
             elseif(is_uploaded_file($file_tmp_name)){
                 $filename = Text::uuid().'.'.$file_ext;
-                $file_db=TableRegistry::get('Arquivos');
+                $file_db=TableRegistry::get('Projects');
                 $entity=$file_db->newEntity();
                 $entity->filename = $filename;
 
@@ -48,7 +48,8 @@ class UploadComponent extends Component
             }
 
         }
-        $this->_registry->getController()->Flash->success('Arquivo salvo com sucesso');
-        return $this->_registry->getController()->redirect(['action' => 'index']);
+        //$this->_registry->getController()->Flash->success('Arquivo salvo com sucesso');
+        //return $this->_registry->getController()->redirect(['action' => 'index']);
+        return;
     }
 }
