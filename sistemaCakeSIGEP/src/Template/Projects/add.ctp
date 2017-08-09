@@ -42,7 +42,7 @@
                   <div class="col-xs-6 text-right">
                       <?= $this->Form->button(__('Salvar'), ['class' => 'btn btn-info btn-lg glyphicon glyphicon-floppy-save']) ?>
                   </div>
-              </div>
+              </div> 
           </ol>
         <?= $this->Form->end() ?>
       </div>
