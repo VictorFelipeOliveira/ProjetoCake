@@ -63,27 +63,24 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
 
                 <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"></i>SIGEP</a>
                 <div class="w3-dropdown-hover w3-hide-small">
-                    <button class="w3-button w3-padding-large"  value="Projetos"><i class="fa fa-pencil w3-margin-right"></i>Proetos</button>
+                    <button class="w3-button w3-padding-large"  value="Projetos"><i class="fa fa-pencil w3-margin-right"></i>Projetos</button>
                     <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
-                        <a href="#" class="w3-bar-item w3-button">Novo Projeto</a>
-                        <a href="#" class="w3-bar-item w3-button">Projetos Cadastrados</a>
-                        <a href="#" class="w3-bar-item w3-button">Avaliar Projeto</a>
+                        <?php echo $this->Html->link('Novo Projeto', array('controller'=>'projects','action'=>'add'), array('class'=>'w3-bar-item w3-button'))?>
+                        <?php echo $this->Html->link('Projetos Cadastrados', array('controller'=>'projects','action'=>'index'), array('class'=>'w3-bar-item w3-button'))?>
+                        <?php echo $this->Html->link('Avaliar Projeto', array('controller'=>'evaluations','action'=>'add'), array('class'=>'w3-bar-item w3-button'))?>
                     </div>
                 </div>
 
                 <div class="w3-dropdown-hover w3-hide-small">
                     <button class="w3-button w3-padding-large" value="Avaliacoes"><i class="fa fa-file w3-margin-right"></i>Avaliaçoes</button>
                     <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-                        <a href="#" class="w3-bar-item w3-button">Nova Avaliaçao</a>
-                        <a href="#" class="w3-bar-item w3-button">Avaliaçoes Realizadas</a>
+                        <?php echo $this->Html->link('Nova Avaliaçao', array('controller'=>'evaluations','action'=>'add'), array('class'=>'w3-bar-item w3-button'))?>
+                        <?php echo $this->Html->link('Avaliaçoes Realizadas', array('controller'=>'evaluations','action'=>'index'), array('class'=>'w3-bar-item w3-button'))?>
                     </div>
                 </div>
 
                 <div class="w3-dropdown-hover w3-hide-small">
-                    <button class="w3-button w3-padding-large" value="instituicoes"><i class="fa fa-home w3-margin-right"></i>Instituiçoes</button>
-                    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-                        <a href="#" class="w3-bar-item w3-button">Cadastradas</a>
-                    </div>
+                      <?php echo $this->Html->link('Instituições', array('controller'=>'institutions','action'=>'index'), array('class'=>'w3-button w3-padding-large'))?>
                 </div>
 
                 <div class="w3-dropdown-hover w3-hide-small">
@@ -109,7 +106,7 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
                 <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a> -->
 
                 <div class="w3-dropdown-hover w3-hide-small w3-right">
-                    <button class="w3-button w3-padding-large" value="ajuda"><i class="fa fa-user "></i> Minha Conta</button>
+                    <button class="w3-button w3-padding-large" value="ajuda"><i class="fa fa-user "></i> <?= $user['username']?></button>
                     <div class="w3-dropdown-content w3-card-4 w3-bar-block">
                         <a href="#" class="w3-bar-item w3-button">Minha Conta</a>
                         <?= $this->Html->link('<i class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white fa fa-home">' . __('Logout') . '</i>', ['action' => 'logout'], ['escape' => false]) ?>
@@ -173,28 +170,7 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
                         </div>
                     </div>
                     <br>
-
-                    <!-- Interests
-                    <div class="w3-card-2 w3-round w3-white w3-hide-small">
-                        <div class="w3-container">
-                            <p>Areas de Interesse</p>
-                            <p>
-                                <span class="w3-tag w3-small w3-theme-d5">News</span>
-                                <span class="w3-tag w3-small w3-theme-d4">W3Schools</span>
-                                <span class="w3-tag w3-small w3-theme-d3">Labels</span>
-                                <span class="w3-tag w3-small w3-theme-d2">Games</span>
-                                <span class="w3-tag w3-small w3-theme-d1">Friends</span>
-                                <span class="w3-tag w3-small w3-theme">Games</span>
-                                <span class="w3-tag w3-small w3-theme-l1">Friends</span>
-                                <span class="w3-tag w3-small w3-theme-l2">Food</span>
-                                <span class="w3-tag w3-small w3-theme-l3">Design</span>
-                                <span class="w3-tag w3-small w3-theme-l4">Art</span>
-                                <span class="w3-tag w3-small w3-theme-l5">Photos</span>
-                            </p>
-                        </div>
-                    </div>
-                    <br>
-                    -->
+                    
                     <!-- Alert Box
                     <div class="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small">
                         <span onclick="this.parentElement.style.display = 'none'" class="w3-button w3-theme-l3 w3-display-topright">

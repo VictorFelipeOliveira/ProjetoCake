@@ -93,7 +93,7 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
                     </form>
                 </div>
                 <div class="panel-footer ">
-                    Ainda nao e cadastrado? <a href="<?= __('Add') ?>" onClick=""> Cadastre-se aqui</a>
+                    <?php echo 'Ainda não possui cadastro? '.$this->Html->link('Cadastre-se aqui', array('controller'=>'users','action'=>'add'), array('class'=>'w3-bar-item w3-button'))?>
                 </div>
             </div>
         </div>
