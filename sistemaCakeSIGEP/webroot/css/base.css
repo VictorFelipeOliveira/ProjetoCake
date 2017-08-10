@@ -1,0 +1,94 @@
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+    display: none;
+}
+
+
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+pre {
+    overflow: auto;
+}
+
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+
+button {
+    overflow: visible;
+}
+
+
+button,
+select {
+    text-transform: none;
+}
+
+
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
