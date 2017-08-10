@@ -18,7 +18,6 @@
             <thead>
               <tr>
                 <th><?= $this->Paginator->sort('id',['label'=>'ID']) ?></th>
-                <th><?= $this->Paginator->sort('date',['label'=>'DATA']) ?></th>
                 <th><?= $this->Paginator->sort('groups_id',['label'=>'GRUPO']) ?></th>
                 <th><?= $this->Paginator->sort('projects_id',['label'=>'PROJETO']) ?></th>
                 <th><?= __('OPÇÔES') ?></th>
@@ -28,7 +27,6 @@
             <?php foreach ($evaluations as $evaluation): ?>
               <tr>
                 <td><?= $this->Number->format($evaluation->id) ?></td>
-                <td><?= h($evaluation->date) ?></td>
                 <td><?= $this->Number->format($evaluation->groups_id) ?></td>
                 <td><?= $this->Number->format($evaluation->projects_id) ?></td>
                 <td class="actions" style="white-space:nowrap">

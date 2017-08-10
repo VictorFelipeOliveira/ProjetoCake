@@ -13,41 +13,31 @@
 
 <!-- Main content -->
 <section class="content">
-<div class="row">
-    <div class="col-md-12">
-        <div class="box box-solid">
-            <div class="box-header with-border">
-                <i class="fa fa-info"></i>
-                <h3 class="box-title"><?php echo __('Information'); ?></h3>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box box-solid">
+                <div class="box-header with-border">
+                    <i class="fa fa-info"></i>
+                    <h3 class="box-title"><?php echo __('Information'); ?></h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <dl class="dl-horizontal">
+                        <dd>
+                            <?= $this->Number->format($evaluation->groups_id) ?>
+                        </dd>
+                        <dt><?= __('Projects Id') ?></dt>
+                        <dd>
+                            <?= $this->Number->format($evaluation->projects_id) ?>
+                        </dd>
+                    </dl>
+                </div>
+                <!-- /.box-body -->
             </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-                <dl class="dl-horizontal">
-                                            
-                                            
-                                                                                                                                                            <dt><?= __('Groups Id') ?></dt>
-                                <dd>
-                                    <?= $this->Number->format($evaluation->groups_id) ?>
-                                </dd>
-                                                                                                                <dt><?= __('Projects Id') ?></dt>
-                                <dd>
-                                    <?= $this->Number->format($evaluation->projects_id) ?>
-                                </dd>
-                                                                                                
-                                                                                                        <dt><?= __('Date') ?></dt>
-                                <dd>
-                                    <?= h($evaluation->date) ?>
-                                </dd>
-                                                                                                                                                                                                            
-                                            
-                                    </dl>
-            </div>
-            <!-- /.box-body -->
+            <!-- /.box -->
         </div>
-        <!-- /.box -->
+        <!-- ./col -->
     </div>
-    <!-- ./col -->
-</div>
-<!-- div -->
+    <!-- div -->
 
 </section>

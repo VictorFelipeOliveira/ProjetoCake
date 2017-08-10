@@ -21,13 +21,15 @@
                 <!-- /.box-header -->
                 <!-- form start -->
                 <?= $this->Form->create($evaluation, array('role' => 'form')) ?>
-                <div class="box-body">
-                    <?php
-                    echo $this->Form->input('date', ['empty' => true, 'default' => '', 'class' => 'datepicker form-control', 'type' => 'date']);
-                    echo $this->Form->input('groups_id', ['label' => 'Selecione o grupo', 'class' => 'form-control']);
-                    echo $this->Form->input('projects_id', ['label' => 'Selecione o projeto', 'class' => 'form-control']);
-                    ?>
-                </div>
+                <div class='row'>
+                    <div class="col-xs-6">
+                        <?php echo $this->Form->input('groups_id', ['label' => 'Selecione o grupo', 'class' => 'form-control']); ?>
+                    </div>  
+                    <div class="col-xs-6">
+                        <?php echo  $this->Form->input('projects_id', ['label' => 'Selecione o projeto', 'class' => 'form-control']);?>
+                    </div>  
+                </div>  
+                <br>
                 <ol class="breadcrumb">
                     <div class='row'>
                         <div class="col-xs-6">
@@ -43,30 +45,3 @@
         </div>
     </div>
 </section>
-
-<?php
-$this->Html->css([
-    'AdminLTE./plugins/datepicker/datepicker3',
-        ], ['block' => 'css']);
-
-$this->Html->script([
-    'AdminLTE./plugins/input-mask/jquery.inputmask',
-    'AdminLTE./plugins/input-mask/jquery.inputmask.date.extensions',
-    'AdminLTE./plugins/datepicker/bootstrap-datepicker',
-    'AdminLTE./plugins/datepicker/locales/bootstrap-datepicker.pt-BR',
-        ], ['block' => 'script']);
-?>
-<?php $this->start('scriptBottom'); ?>
-<script>
-    $(function () {
-        //Datemask mm/dd/yyyy
-        $(".datepicker")
-                .inputmask("mm/dd/yyyy", {"placeholder": "mm/dd/yyyy"})
-                .datepicker({
-                    language: 'en',
-                    format: 'mm/dd/yyyy'
-                });
-    });
-</script>
-<?php $this->end(); ?>
-        

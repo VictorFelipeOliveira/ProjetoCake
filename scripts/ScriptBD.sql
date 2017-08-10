@@ -27,14 +27,14 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `groups` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL primary key,
   `nome` varchar(80) NOT NULL,
   `descricao` varchar(250) DEFAULT NULL,
   `created` datetime DEFAULT NULL,
   `modified` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
 --
+
 -- Extraindo dados da tabela `groups`
 --
 
@@ -158,6 +158,18 @@ CREATE TABLE `users` (
   `institutions_id` int(10) UNSIGNED NOT NULL,
   `roles_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE IF NOT EXISTS `mydb`.`evaluations` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `date` VARCHAR(45) NOT NULL,
+  `created` DATETIME NULL,
+  `modified` DATETIME NULL,
+  `groups_id` INT NOT NULL,
+  `projects_id` INT NOT NULL,
+  PRIMARY KEY (`id`),
+    FOREIGN KEY (`groups_id`) REFERENCES `mydb`.`groups` (`id`),
+FOREIGN KEY (`projects_id`) REFERENCES `mydb`.`projects` (`id`));
+
 
 --
 -- Extraindo dados da tabela `users`

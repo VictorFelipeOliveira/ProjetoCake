@@ -18,7 +18,6 @@ class EvaluationsFixture extends TestFixture
     // @codingStandardsIgnoreStart
     public $fields = [
         'id' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'autoIncrement' => true, 'precision' => null],
-        'date' => ['type' => 'date', 'length' => null, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null],
         'created' => ['type' => 'datetime', 'length' => null, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null],
         'modified' => ['type' => 'datetime', 'length' => null, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null],
         'groups_id' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
@@ -47,9 +46,8 @@ class EvaluationsFixture extends TestFixture
     public $records = [
         [
             'id' => 1,
-            'date' => '2017-08-09',
-            'created' => '2017-08-09 22:52:13',
-            'modified' => '2017-08-09 22:52:13',
+            'created' => '2017-08-10 11:30:16',
+            'modified' => '2017-08-10 11:30:16',
             'groups_id' => 1,
             'projects_id' => 1
         ],

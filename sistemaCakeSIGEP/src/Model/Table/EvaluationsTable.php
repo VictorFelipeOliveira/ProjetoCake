@@ -63,11 +63,6 @@ class EvaluationsTable extends Table
             ->integer('id')
             ->allowEmpty('id', 'create');
 
-        $validator
-            ->date('date')
-            ->requirePresence('date', 'create')
-            ->notEmpty('date');
-
         return $validator;
     }
 

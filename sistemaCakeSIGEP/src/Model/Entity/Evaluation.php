@@ -7,7 +7,6 @@ use Cake\ORM\Entity;
  * Evaluation Entity
  *
  * @property int $id
- * @property \Cake\I18n\FrozenDate $date
  * @property \Cake\I18n\FrozenTime $created
  * @property \Cake\I18n\FrozenTime $modified
  * @property int $groups_id
