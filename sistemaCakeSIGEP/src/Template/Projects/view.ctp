@@ -1,12 +1,14 @@
 <section class="content-header">
-  <h1>
-    <?php echo __('Project'); ?>
-  </h1>
-  <ol class="breadcrumb">
-    <li>
-    <?= $this->Html->link('<i class="fa fa-dashboard"></i> ' . __('Back'), ['action' => 'index'], ['escape' => false])?>
-    </li>
-  </ol>
+  <h3>
+      <ol class="breadcrumb">
+          <h3 class= "fa fa-info-circle" style="float: left; margin-top: 5px;"> Detalhes do Projeto</h3>
+          <h4 style="text-align: right; float: ">
+              <li>
+                  <?= $this->Html->link('<i class="fa fa-home"></i> ' . __('Voltar'), ['action' => 'index'], ['escape' => false]) ?>
+              </li>
+          </h4>
+      </ol>
+  </h3>
 </section>
 
 <!-- Main content -->
@@ -15,35 +17,32 @@
     <div class="col-md-12">
         <div class="box box-solid">
             <div class="box-header with-border">
-                <i class="fa fa-info"></i>
-                <h3 class="box-title"><?php echo __('Information'); ?></h3>
+
             </div>
             <!-- /.box-header -->
             <div class="box-body">
                 <dl class="dl-horizontal">
-                                                                                                                <dt><?= __('Filename') ?></dt>
+                                        <dt><?= __('Arquivo') ?></dt>
                                         <dd>
                                             <?= h($project->filename) ?>
                                         </dd>
-                                                                                                                                                            <dt><?= __('Evento') ?></dt>
+                                        <dt><?= __('Evento') ?></dt>
                                         <dd>
                                             <?= h($project->evento) ?>
                                         </dd>
-                                                                                                                                                    <dt><?= __('Standard') ?></dt>
-                                <dd>
-                                    <?= $project->has('standard') ? $project->standard->nome : '' ?>
-                                </dd>
-                                                                                                                        <dt><?= __('Title') ?></dt>
+                                        <dt><?= __('Title') ?></dt>
                                         <dd>
                                             <?= h($project->title) ?>
                                         </dd>
-                                                                                                                                                            <dt><?= __('Resumo') ?></dt>
+                                        <dt><?= __('Resumo') ?></dt>
                                         <dd>
                                             <?= h($project->resumo) ?>
                                         </dd>
-                                                                                                                                    
-                                            
-                                                                                                                                            
+                                        <dt><?= __('Norma estabelecida') ?></dt>
+                                        <dd>
+                                            <?= $this->Number->format($project->standard_id) ?>
+                                        </dd>
+                                                                                                
                                                                                                                                                                                                 
                                             
                                     </dl>
