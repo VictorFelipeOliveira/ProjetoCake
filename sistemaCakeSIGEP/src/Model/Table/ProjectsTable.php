@@ -41,7 +41,7 @@ class ProjectsTable extends Table
         $this->addBehavior('Timestamp');
 
         $this->belongsTo('Standards', [
-            'foreignKey' => 'standards_id',
+            'foreignKey' => 'standard_id',
             'joinType' => 'INNER'
         ]);
     }
@@ -74,9 +74,9 @@ class ProjectsTable extends Table
             ->requirePresence('resumo', 'create')
             ->notEmpty('resumo');
 
-        $validator
+      /*  $validator
             ->requirePresence('filename[]', 'create')
-            ->notEmpty('filename');
+            ->notEmpty('filename');*/
 
         return $validator;
     }
@@ -90,7 +90,7 @@ class ProjectsTable extends Table
      */
     public function buildRules(RulesChecker $rules)
     {
-        $rules->add($rules->existsIn(['standards_id'], 'Standards'));
+        $rules->add($rules->existsIn(['standard_id'], 'Standards'));
 
         return $rules;
     }

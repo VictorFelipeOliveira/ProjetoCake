@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Filesystem\File;
 
 /**
  * Projects Controller
@@ -61,12 +62,7 @@ class ProjectsController extends AppController
         $project = $this->Projects->newEntity();
         if ($this->request->is('post')) {
             $project = $this->Projects->patchEntity($project, $this->request->data);
-            if ($this->Projects->save($project) && $this->Upload->upload($this->request->data['filename'])) {
-                $this->Flash->success(__('The {0} has been saved.', 'Project'));
-                return $this->redirect(['action' => 'index']);
-            } else {
-                $this->Flash->error(__('The {0} could not be saved. Please, try again.', 'Project'));
-            }
+            $this->Upload->upload($this->request->data(['filename']),$project);
         }
         $standards = $this->Projects->Standards->find('list', ['limit' => 200]);
         $this->set(compact('project', 'standards'));
@@ -110,7 +106,14 @@ class ProjectsController extends AppController
     {
         $this->request->allowMethod(['post', 'delete']);
         $project = $this->Projects->get($id);
+
+        $filename = $project->filename;
+        $dir = WWW_ROOT.'files';
+
         if ($this->Projects->delete($project)) {
+            $file = new File($dir);
+            $file->delete();
+            $file->close();
             $this->Flash->success(__('The {0} has been deleted.', 'Project'));
         } else {
             $this->Flash->error(__('The {0} could not be deleted. Please, try again.', 'Project'));

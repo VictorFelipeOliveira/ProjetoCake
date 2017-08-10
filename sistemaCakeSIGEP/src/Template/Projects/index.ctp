@@ -1,9 +1,9 @@
 <!-- Content Header (Page header) -->
 <section class="content-header">
-  <h1>
-    Projects
-    <div class="pull-right"><?= $this->Html->link(__('New'), ['action' => 'add'], ['class'=>'btn btn-success btn-xs']) ?></div>
-  </h1>
+  <h3>
+    Projetos Cadastrados
+    <div class="pull-right"><?= $this->Html->link(__('Novo'), ['action' => 'add'], ['class'=>'btn btn-success btn-lg fa fa-file']) ?></div>
+  </h3>
 </section>
 
 <!-- Main content -->
@@ -12,46 +12,38 @@
     <div class="col-xs-12">
       <div class="box">
         <div class="box-header">
-          <h3 class="box-title"><?= __('List of') ?> Projects</h3>
-          <div class="box-tools">
-            <form action="<?php echo $this->Url->build(); ?>" method="POST">
-              <div class="input-group input-group-sm"  style="width: 180px;">
-                <input type="text" name="search" class="form-control" placeholder="<?= __('Fill in to start search') ?>">
-                <span class="input-group-btn">
-                <button class="btn btn-info btn-flat" type="submit"><?= __('Filter') ?></button>
-                </span>
-              </div>
-            </form>
-          </div>
+          <br>
+            <br>
         </div>
         <!-- /.box-header -->
         <div class="box-body table-responsive no-padding">
           <table class="table table-hover">
             <thead>
               <tr>
-                <th><?= $this->Paginator->sort('id') ?></th>
-                <th><?= $this->Paginator->sort('filename') ?></th>
-                <th><?= $this->Paginator->sort('evento') ?></th>
-                <th><?= $this->Paginator->sort('standards_id') ?></th>
-                <th><?= $this->Paginator->sort('title') ?></th>
-                <th><?= $this->Paginator->sort('resumo') ?></th>
+                  <th><?= $this->Paginator->sort('ID') ?></th>
+                  <th><?= $this->Paginator->sort('Titulo') ?></th>
+                  <th><?= $this->Paginator->sort('Resumo') ?></th>
+                  <th><?= $this->Paginator->sort('Evento') ?></th>
+                  <th><?= $this->Paginator->sort('Norma ') ?></th>
+                  <th><?= $this->Paginator->sort('Arquivo') ?></th>
                 <th><?= __('Actions') ?></th>
               </tr>
             </thead>
             <tbody>
             <?php foreach ($projects as $project): ?>
               <tr>
-                <td><?= $this->Number->format($project->id) ?></td>
-                <td><?= h($project->filename) ?></td>
-                <td><?= h($project->evento) ?></td>
-                <td><?= $project->has('standard') ? $this->Html->link($project->standard->id, ['controller' => 'Standards', 'action' => 'view', $project->standard->id]) : '' ?></td>
-                <td><?= h($project->title) ?></td>
-                <td><?= h($project->resumo) ?></td>
-                <td class="actions" style="white-space:nowrap">
-                  <?= $this->Html->link(__('View'), ['action' => 'view', $project->id], ['class'=>'btn btn-info btn-xs']) ?>
-                  <?= $this->Html->link(__('Edit'), ['action' => 'edit', $project->id], ['class'=>'btn btn-warning btn-xs']) ?>
-                  <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $project->id], ['confirm' => __('Confirm to delete this entry?'), 'class'=>'btn btn-danger btn-xs']) ?>
-                </td>
+                  <td><?= $this->Number->format($project->id) ?></td>
+                  <td><?= h($project->title) ?></td>
+                  <td><?= h($project->resumo) ?></td>
+                  <td><?= h($project->evento) ?></td>
+                  <td><?= $this->Number->format($project->standard_id) ?></td>
+                  <td><?= h($project->filename) ?></td>
+
+                  <td class="actions" style="white-space:nowrap">
+                      <?= $this->Html->link(__('Ver'), ['action' => 'view', $project->id], ['class'=>'btn btn-info btn-sm fa fa-eye']) ?>
+                      <?= $this->Html->link(__('Editar'), ['action' => 'edit', $project->id], ['class'=>'btn btn-warning btn-sm fa fa-pencil']) ?>
+                      <?= $this->Form->postLink(__('Excluir'), ['action' => 'delete', $project->id], ['confirm' => __('Tem certeza que deseja excluir esse registro?'), 'class'=>'btn btn-danger btn-sm  fa fa-trash']) ?>
+                  </td>
               </tr>
             <?php endforeach; ?>
             </tbody>

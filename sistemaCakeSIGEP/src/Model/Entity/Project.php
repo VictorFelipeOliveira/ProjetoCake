@@ -9,7 +9,7 @@ use Cake\ORM\Entity;
  * @property int $id
  * @property string $filename
  * @property string $evento
- * @property int $standards_id
+ * @property int $standard_id
  * @property string $title
  * @property string $resumo
  * @property \Cake\I18n\FrozenTime $created

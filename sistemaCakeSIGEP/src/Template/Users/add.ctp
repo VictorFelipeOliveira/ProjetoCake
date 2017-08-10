@@ -18,7 +18,6 @@
                     <h6 style="text-align: right" class="box-title"><?= __('* Campos obrigatórios') ?></h6>
 
                 </div>
-                <!-- /.box-header -->
                 <!-- form start -->
                 <?= $this->Form->create($user, array('role' => 'form')) ?>
                 <div class="form-group">
