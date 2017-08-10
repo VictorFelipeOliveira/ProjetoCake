@@ -4,13 +4,19 @@ namespace App\Model\Entity;
 use Cake\ORM\Entity;
 
 /**
- * Standard Entity
+ * Evaluation Entity
  *
  * @property int $id
- * @property string $nome
- * @property string $descricao
+ * @property \Cake\I18n\FrozenDate $date
+ * @property \Cake\I18n\FrozenTime $created
+ * @property \Cake\I18n\FrozenTime $modified
+ * @property int $groups_id
+ * @property int $projects_id
+ *
+ * @property \App\Model\Entity\Group $group
+ * @property \App\Model\Entity\Project $project
  */
-class Standard extends Entity
+class Evaluation extends Entity
 {
 
     /**

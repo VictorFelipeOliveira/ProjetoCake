@@ -23,7 +23,7 @@
                 <th><?= $this->Paginator->sort('cpf',['label'=>'CPF']) ?></th>
                 <th><?= $this->Paginator->sort('email',['label'=>'EMAIL']) ?></th>
                 <th><?= $this->Paginator->sort('telefone',['label'=>'TELEFONE']) ?></th>
-                <th><?= __('FUNÇÔES') ?></th>
+                <th><?= __('OPÇÔES') ?></th>
               </tr>
             </thead>
             <tbody>

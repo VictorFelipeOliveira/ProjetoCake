@@ -63,7 +63,7 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
 
                 <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"></i>SIGEP</a>
                 <div class="w3-dropdown-hover w3-hide-small">
-                    <button class="w3-button w3-padding-large"  value="Projetos"><i class="fa fa-pencil w3-margin-right"></i>Projetos</button>
+                    <button class="w3-button w3-padding-large"  value="Projetos"><i class="fa fa-pencil w3-margin-right"></i>Proetos</button>
                     <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
                         <a href="#" class="w3-bar-item w3-button">Novo Projeto</a>
                         <a href="#" class="w3-bar-item w3-button">Projetos Cadastrados</a>

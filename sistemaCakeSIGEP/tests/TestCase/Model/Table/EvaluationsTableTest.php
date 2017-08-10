@@ -1,22 +1,22 @@
 <?php
 namespace App\Test\TestCase\Model\Table;
 
-use App\Model\Table\StandardsTable;
+use App\Model\Table\EvaluationsTable;
 use Cake\ORM\TableRegistry;
 use Cake\TestSuite\TestCase;
 
 /**
- * App\Model\Table\StandardsTable Test Case
+ * App\Model\Table\EvaluationsTable Test Case
  */
-class StandardsTableTest extends TestCase
+class EvaluationsTableTest extends TestCase
 {
 
     /**
      * Test subject
      *
-     * @var \App\Model\Table\StandardsTable
+     * @var \App\Model\Table\EvaluationsTable
      */
-    public $Standards;
+    public $Evaluations;
 
     /**
      * Fixtures
@@ -24,6 +24,9 @@ class StandardsTableTest extends TestCase
      * @var array
      */
     public $fixtures = [
+        'app.evaluations',
+        'app.groups',
+        'app.projects',
         'app.standards'
     ];
 
@@ -35,8 +38,8 @@ class StandardsTableTest extends TestCase
     public function setUp()
     {
         parent::setUp();
-        $config = TableRegistry::exists('Standards') ? [] : ['className' => StandardsTable::class];
-        $this->Standards = TableRegistry::get('Standards', $config);
+        $config = TableRegistry::exists('Evaluations') ? [] : ['className' => EvaluationsTable::class];
+        $this->Evaluations = TableRegistry::get('Evaluations', $config);
     }
 
     /**
@@ -46,7 +49,7 @@ class StandardsTableTest extends TestCase
      */
     public function tearDown()
     {
-        unset($this->Standards);
+        unset($this->Evaluations);
 
         parent::tearDown();
     }
@@ -67,6 +70,16 @@ class StandardsTableTest extends TestCase
      * @return void
      */
     public function testValidationDefault()
+    {
+        $this->markTestIncomplete('Not implemented yet.');
+    }
+
+    /**
+     * Test buildRules method
+     *
+     * @return void
+     */
+    public function testBuildRules()
     {
         $this->markTestIncomplete('Not implemented yet.');
     }
